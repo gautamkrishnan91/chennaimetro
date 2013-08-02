@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+}
+#range {
+    width:400px;
+    height:400px;
+    overflow:hidden;
+    border:1px solid black;
+    position:relative;
+}
+#container {
+    position:absolute;
+    top:-800px;
+    left:-1520px;
+    width: 3440px;
+    height: 2000px;
+}
+#map {
+    width: 1920px;
+    height: 1200px;
+    top:800px;
+    left:1520px;
+}

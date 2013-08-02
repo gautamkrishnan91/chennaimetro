@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script src="js/jquery-1.9.1.js"></script>
+		<script src="js/jquery-ui-1.10.3.custom.js"></script>
+		<script src="js/wheelzoom.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+
+				var left = 0;
+				var right = $(window).width();
+				var top = 0;
+				var bottom = $(window).height();
+			        jQuery("#map").draggable({
+				        containment: $('#container')
+				    });
+
+
+// or zoom sets the zoom percent.
+				$('#map').wheelzoom({zoom:0.1});
+
+				// zooming out can be triggered by calling 'wheelzoom.reset'
+				$('#map').trigger('wheelzoom.reset');
+			});
+		</script>
+		<link rel="stylesheet" type="text/css" href="panstyle.css"/>
+	</head>
+	<body>
+		<div id="range">
+		    <div id="container">
+		        <div id="map" />
+		        	<img src="forest.jpg"/>
+		    	</div>
+		    </div>
+		</div>
+	</body>
+</html>
