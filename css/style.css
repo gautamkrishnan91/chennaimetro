@@ -43,6 +43,11 @@
 	position: absolute;
 	z-index: 10;
 }
+.station-metro1{
+	border: 5px solid #FFB896;
+	position: absolute;
+	z-index: 10;
+}
 /* Suburb Styles */
 .suburb{
 	position: absolute;
@@ -114,7 +119,7 @@
 }
 .suburb-vert4{
 	width: 10px;
-	height: 708px;
+	height: 608px;
 	background: #FFC90D;
 	position: absolute;
 	margin-left: 1840px;	
@@ -253,7 +258,7 @@
     border: 10px solid #FFC90D;
 	border-color: transparent transparent transparent #FFC90D;
 	border-style: solid;
-	margin: 1514px 0 0 1660px;
+	margin: 1430px 0 0 1657px;
 	z-index: -1;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(90deg); /* IE 9 */
@@ -281,7 +286,7 @@
 	width: 2000px;
 	background: #FFC90D;
 	position: absolute;
-	margin: 2247px 0 0 0px;
+	margin: 2160px 0 0 0px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(-40deg); /* IE 9 */
 	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
@@ -291,7 +296,7 @@
 
 .metro1{
 	position: absolute;
-	z-index: 0;
+	z-index: 1;
 	top: 0;
 	left: 0;
 }
@@ -325,6 +330,99 @@
 	left: -29px;
 	border-radius: 50px;
 }
+.metro1-hoz1{
+	width: 710px;
+	height: 10px;
+	background: #FFB896;
+	position: absolute;
+	z-index: 2;
+	margin-left: 2664px;	
+	margin-top: 1571px;
+}
+.metro1-right-bend2{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #FFB896;
+	border-radius: 0 23px 0 0;
+	margin: 1564px 0 0 2644px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+.metro1-right-bend2:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.metro1-vert2{
+	width: 10px;
+	height: 310px;
+	background: #FFB896;
+	position: absolute;
+	margin-left: 2637px;	
+	margin-top: 1600px;
+}
+.metro1-right-bend3{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #FFB896;
+	border-style: solid;
+	margin: 1810px 0 0 2502px;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(-49deg);
+}
+.metro1-left-diag1{
+	height: 10px;
+	width: 1750px;
+	background: #FFB896;
+	position: absolute;
+	margin: 2545px 0 0 1023px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-41deg); /* IE 9 */
+	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
+}
+.metro1-right-bend4{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #FFB896;
+	border-style: solid;
+	margin: 2958px 0 0 1092px;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(-100deg);
+}
+.metro1-left-diag2{
+	height: 10px;
+	width: 50px;
+	background: #FFB896;
+	position: absolute;
+	margin: 3102px 0 0 1043px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-41deg); /* IE 9 */
+	-webkit-transform:rotate(18deg); /* Safari and Chrome */
+}
+
 
 
 /* Common Endpoints */
@@ -487,15 +585,15 @@
 }
 #stn-mambalam{
 	position: absolute;
-	margin: 117px 0 0 -17px;
+	margin: 27px 0 0 -17px;
 }
 #stn-saidapet{
 	position: absolute;
-	margin: 350px 0 0 -17px;
+	margin: 270px 0 0 -17px;
 }
 #stn-guindy1{
 	position: absolute;
-	margin: 680px 0 0 -17px;
+	margin: 590px 0 0 -17px;
 }
 #stn-mount{
 	position: absolute;
@@ -552,6 +650,98 @@
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-egmore1{
+	position: absolute;
+	margin: 1px 0 0 -17px;
+}
+#stn-lic{
+	position: absolute;
+	margin: 180px 0 0 -17px;
+}
+#stn-thousandlights{
+	position: absolute;
+	margin: -13px 0 0 1706px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-gemini{
+	position: absolute;
+	margin: -13px 0 0 1534px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-teynampet{
+	position: absolute;
+	margin: -13px 0 0 1362px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-nandanam{
+	position: absolute;
+	margin: -13px 0 0 1190px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-saidapet1{
+	position: absolute;
+	margin: -13px 0 0 1018px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-littlemount{
+	position: absolute;
+	margin: -13px 0 0 846px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-guindy2{
+	position: absolute;
+	margin: -13px 0 0 726px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-alandur{
+	position: absolute;
+	margin: -13px 0 0 565px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-ota{
+	position: absolute;
+	margin: -13px 0 0 377px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-iac{
+	position: absolute;
+	margin: -13px 0 0 189px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-meenambakkam2{
+	position: absolute;
+	margin: -13px 0 0 55px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-airport{
+	position: absolute;
+	margin: -13px 0 0 0px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(-18deg); /* Safari and Chrome */
 }
 
 
@@ -704,7 +894,7 @@
 }
 .name-egmore{
 	position: absolute;
-	margin: 45px 0 0 -30px;
+	margin: -35px 0 0 -40px;
 	width: 200px;
 }
 .name-chetpet{
@@ -777,7 +967,63 @@
 	margin: 10px 0 0 45px;
 	width: 200px;	
 }
-
+.name-lic{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-thousandlights{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-gemini{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-teynampet{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-nandanam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-saidapet1{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-littlemount{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-alandur{
+	position: absolute;
+	margin: -10px 0 0 -68px;
+	width: 200px;	
+}
+.name-ota{
+	position: absolute;
+	margin: -10px 0 0 -210px;
+	width: 200px;	
+}
+.name-iac{
+	position: absolute;
+	margin: -10px 0 0 -165px;
+	width: 200px;	
+}
+.name-airport{
+	position: absolute;
+	margin: -40px 0 0 -150px;
+	width: 200px;	
+	line-height: 25px;
+	text-align: center;
+}
 
 
 /* Specific Endpoints */
