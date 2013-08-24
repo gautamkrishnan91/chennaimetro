@@ -427,6 +427,24 @@
 	-ms-transform:rotate(-41deg); /* IE 9 */
 	-webkit-transform:rotate(18deg); /* Safari and Chrome */
 }
+.metro2-right-bend5{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 2px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #FFB896;
+	border-style: solid;
+	margin: 692px 0 0 1840px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(-0deg); /* Safari and Chrome */
+}
+
 
 
 /* MRTS Styles */
@@ -565,6 +583,140 @@
 	-ms-transform:rotate(-41deg); /* IE 9 */
 	-webkit-transform:rotate(45deg); /* Safari and Chrome */
 }
+
+/* Metro Phase 2 Styles */
+
+.metro2{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+.metro2-hoz1{
+	width: 1120px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 2;
+	margin-left: 2220px;	
+	margin-top: 1560px;
+}
+.metro2-right-bend1{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #2ecc71;
+	border-style: solid;
+	margin: 1426px 0 0 2135px;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(230deg);
+}
+.metro2-diag1{
+	width: 210px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 2;
+	margin-left: 1925px;	
+	margin-top: 1460px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(38deg);
+}
+.metro2-right-bend2{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #2ecc71;
+	border-style: solid;
+	margin: 1332px 0 0 1750px;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(1, -1) rotate(-130deg);
+}
+.metro2-hoz2{
+	width: 360px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 2;
+	margin-left: 1480px;	
+	margin-top: 1362px;
+}
+.metro2-left-bend3{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #2ecc71;
+	border-radius: 0 23px 0 0;
+	margin: 1355px 0 0 1465px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+.metro2-left-bend3:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.metro2-vert1{
+	width: 10px;
+	height: 1100px;
+	background: #2ecc71;
+	position: absolute;
+	margin-left: 1458px;
+	margin-top: 1390px;
+}
+.metro2-right-bend4{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 2px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #2ecc71;
+	border-style: solid;
+	margin: 2395px 0 0 1425.4px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(-45deg); /* Safari and Chrome */
+}
+.metro2-diag2{
+	width: 210px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 0;
+	margin-left: 1485px;	
+	margin-top: 2659px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(-40deg);
+}
+
+
 
 
 /* Common Endpoints */
@@ -856,6 +1008,7 @@
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+	z-index: 4;
 }
 #stn-ota{
 	position: absolute;
@@ -984,10 +1137,10 @@
 }
 #stn-mundaikanni{
 	position: absolute;
-	margin: -17px 0 0 1330px;
+	margin: 130px 0 0 -27px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
-	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+	-webkit-transform:rotate(228deg) scale(1, -1); /* Safari and Chrome */
 	z-index: 20;
 }
 #stn-adambakkam{
