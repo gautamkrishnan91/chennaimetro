@@ -53,6 +53,12 @@
 	position: absolute;
 	z-index: 20;
 }
+.station-metro2{
+	border: 5px solid #2ecc71;
+	position: absolute;
+	z-index: 20;
+}
+
 /* Suburb Styles */
 .suburb{
 	position: absolute;
@@ -100,7 +106,7 @@
 }
 .suburb-vert-top{
 	width: 10px;
-	height: 1522px;
+	height: 1520px;
 	background: #FFC90D;
 	position: absolute;
 	margin-left: 3100px;	
@@ -324,6 +330,7 @@
 	transform:rotate(-45deg);
 	-ms-transform:rotate(90deg); /* IE 9 */
 	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	overflow: hidden;
 }
 .metro1-right-bend1:after {
 	height: 60px;
@@ -697,25 +704,36 @@
     border: 10px solid #FFB896;
 	border-color: transparent transparent transparent #2ecc71;
 	border-style: solid;
-	margin: 2395px 0 0 1425.4px;
+	margin: 2390px 0 0 1425.4px;
 	z-index: -1;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(90deg); /* IE 9 */
 	-webkit-transform:rotate(-45deg); /* Safari and Chrome */
 }
 .metro2-diag2{
-	width: 210px;
+	width: 193px;
 	height: 10px;
 	background: #2ecc71;
 	position: absolute;
 	z-index: 0;
-	margin-left: 1485px;	
-	margin-top: 2659px;
+	margin-left: 1487px;	
+	margin-top: 2648px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(90deg); /* IE 9 */
 	-webkit-transform: scale(-1, 1) rotate(-40deg);
 }
-
+.metro2-diag3{
+	width: 52px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 0;
+	margin-left: 1679px;	
+	margin-top: 2758px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(-44deg);
+}
 
 
 
@@ -850,8 +868,8 @@
 }
 #stn-egmore{
 	position: absolute;
-	margin: -15px 0 0 0px;
-	right: 846px;
+	margin: -11px 0 0 0px;
+	right: 860px;
 }
 #stn-chetpet{
 	position: absolute;
@@ -1151,11 +1169,102 @@
 	-webkit-transform:rotate(-48deg); /* Safari and Chrome */
 	z-index: 20;
 }
-
-
-
-
-
+#stn-fort2{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: -25px;
+	z-index: 1;
+}
+#stn-vepery{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: 700px;
+	z-index: 1;
+}
+#stn-shastrinagar{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: 920px;
+	z-index: 1;
+}
+#stn-kmch{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	left: -20px;
+	z-index: 1;
+}
+#stn-annanagareast{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: -10px;
+	z-index: 1;
+}
+#stn-annanagartower{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: 50%;
+	z-index: 1;
+}
+#stn-shenoynagar{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	left: 0;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
+}
+#stn-aminjikarai{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: 0;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
+}
+#stn-thirumangalam{
+	position: absolute;
+	margin: 18px 0 0 -17px;
+	top: 0;
+	z-index: 1;
+}
+#stn-sidco{
+	position: absolute;
+	margin: 0px 0 0px -17px;
+	bottom: 0;
+	z-index: 1;
+}
+#stn-arumbakkam{
+	position: absolute;
+	margin: 152px 0 18px -17px;
+	z-index: 1;
+}
+#stn-koyambedu{
+	position: absolute;
+	margin: 304px 0 18px -17px;
+	z-index: 1;
+}
+#stn-cmbt{
+	position: absolute;
+	margin: 456px 0 18px -17px;
+	z-index: 1;
+}
+#stn-vadapalani{
+	position: absolute;
+	margin: 608px 0 18px -17px;
+	z-index: 1;
+}
+#stn-ashoknagar{
+	position: absolute;
+	margin: 760px 0 18px -17px;
+	z-index: 1;
+}
+#stn-kknagar{
+	position: absolute;
+	margin: 912px 0 18px -17px;
+	z-index: 1;
+}
 
 
 /* Station Names */
@@ -1306,8 +1415,9 @@
 }
 .name-egmore{
 	position: absolute;
-	margin: -35px 0 0 -40px;
-	width: 200px;
+	margin: 45px 0 0 -50px;
+	width: 100px;
+	text-align: center;
 }
 .name-chetpet{
 	position: absolute;
@@ -1416,7 +1526,7 @@
 }
 .name-alandur{
 	position: absolute;
-	margin: -10px 0 0 -68px;
+	margin: 5px 0 0 -78px;
 	width: 200px;	
 }
 .name-ota{
@@ -1526,9 +1636,95 @@
 	margin: 10px 0 0 -130px;
 	width: 200px;	
 }
-
-
-
+.name-vepery{
+	position: absolute;
+	margin: -25px 0 0 -10px;
+	width: 200px;	
+}
+.name-shastrinagar{
+	position: absolute;
+	margin: -45px 0 0 -35px;
+	width: 100px;	
+	text-align: center;
+}
+.name-kmch{
+	position: absolute;
+	margin: -25px 0 0 -35px;
+	width: 100px;	
+	text-align: center;
+}
+.name-annanagareast{
+	position: absolute;
+	margin: -40px 0 0 -35px;
+	width: 100px;	
+	text-align: center;
+}
+.name-annanagartower{
+	position: absolute;
+	margin: -40px 0 0 -35px;
+	width: 100px;	
+	text-align: center;
+}
+.name-shenoynagar{
+	position: absolute;
+	margin: -20px 0 0 15px;
+	width: 100px;	
+	text-align: center;
+}
+.name-aminjikarai{
+	position: absolute;
+	margin: -25px 0 0 0px;
+	width: 100px;	
+	text-align: center;
+}
+.name-thirumangalam{
+	position: absolute;
+	margin: 8px 0 0 -130px;
+	width: 100px;	
+	text-align: center;
+}
+.name-sidco{
+	position: absolute;
+	margin: 8px 0 0 -130px;
+	width: 100px;	
+	text-align: center;
+}
+.name-arumbakkam{
+	position: absolute;
+	margin: 8px 0 0 -115px;
+	width: 100px;	
+	text-align: center;
+}
+.name-koyambedu{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
+.name-cmbt{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
+.name-vadapalani{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
+.name-ashoknagar{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
+.name-kknagar{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
 
 /* Specific Endpoints */
 
