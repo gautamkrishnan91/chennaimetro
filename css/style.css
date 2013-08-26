@@ -63,6 +63,7 @@
 .suburb{
 	position: absolute;
 	z-index: 1;
+	left: 600px;
 }
 .suburb-hoz-container{
 	height: 200px;
@@ -294,10 +295,10 @@
 }
 .suburb-left-diag2{
 	height: 10px;
-	width: 2000px;
+	width: 2900px;
 	background: #FFC90D;
 	position: absolute;
-	margin: 2160px 0 0 0px;
+	margin: 2440px 0 0 -808px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(-40deg); /* IE 9 */
 	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
@@ -309,7 +310,7 @@
 	position: absolute;
 	z-index: 1;
 	top: 0;
-	left: 0;
+	left: 600px;
 }
 .metro1-vert1{
 	width: 10px;
@@ -460,7 +461,7 @@
 	position: absolute;
 	z-index: 0;
 	top: 0;
-	left: 0;
+	left: 600px;
 }
 .mrts-vert1{
 	width: 10px;
@@ -597,7 +598,7 @@
 	position: absolute;
 	z-index: 1;
 	top: 0;
-	left: 0;
+	left: 600px;
 }
 .metro2-hoz1{
 	width: 1120px;
@@ -909,56 +910,112 @@
 }
 #stn-mount{
 	position: absolute;
-	margin: -13px 0 0 1910px;
+	margin: -13px 0 0 2815px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-pazhavanthangal{
 	position: absolute;
-	margin: -13px 0 0 1600px;
+	margin: -13px 0 0 2505px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-meenambakkam{
 	position: absolute;
-	margin: -13px 0 0 1400px;
+	margin: -13px 0 0 2305px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-tirusulam{
 	position: absolute;
-	margin: -13px 0 0 1250px;
+	margin: -13px 0 0 2155px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-pallavaram{
 	position: absolute;
-	margin: -13px 0 0 1100px;
+	margin: -13px 0 0 2005px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-chrompet{
 	position: absolute;
-	margin: -13px 0 0 950px;
+	margin: -13px 0 0 1855px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-sanatorium{
 	position: absolute;
-	margin: -13px 0 0 783px;
+	margin: -13px 0 0 1688px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-tambaram{
 	position: absolute;
-	margin: -13px 0 0 616px;
+	margin: -13px 0 0 1521px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-perungalathur{
+	position: absolute;
+	margin: -13px 0 0 1321px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-vandalur{
+	position: absolute;
+	margin: -13px 0 0 1171px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-urapakkam{
+	position: absolute;
+	margin: -13px 0 0 1005px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-guduvancheri{
+	position: absolute;
+	margin: -13px 0 0 855px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-potheri{
+	position: absolute;
+	margin: -13px 0 0 705px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-kattangulathur{
+	position: absolute;
+	margin: -13px 0 0 585px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-maraimalainagar{
+	position: absolute;
+	margin: -13px 0 0 500px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-singaperumal{
+	position: absolute;
+	margin: -13px 0 0 280px;
 	transform:rotate(-45deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
@@ -1485,6 +1542,46 @@
 	width: 200px;	
 }
 .name-tambaram{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-perungalathur{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-vandalur{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-urapakkam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-guduvancheri{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-potheri{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-kattangulathur{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-maraimalainagar{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-singaperumal{
 	position: absolute;
 	margin: 10px 0 0 45px;
 	width: 200px;	
