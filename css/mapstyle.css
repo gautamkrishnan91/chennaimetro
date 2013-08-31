@@ -1,0 +1,1861 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans Light';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Global Styles */
+#map-wrapper{
+	width: 3500px;
+	height: 3000px;
+}
+.station{
+	width: 32px;
+	height: 32px;
+	background: url('../images/train.png') #FFF;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 20;
+}
+.station-suburb{
+	border: 5px solid #FFC90D;
+	position: absolute;
+	z-index: 10;
+}
+.station-interchange{
+	border: 5px solid #555;	
+	position: absolute;
+	z-index: 10;
+}
+.station-metro1{
+	border: 5px solid #FFB896;
+	position: absolute;
+	z-index: 10;
+}
+.station-mrts{
+	border: 5px solid #3498db;
+	position: absolute;
+	z-index: 20;
+}
+.station-metro2{
+	border: 5px solid #2ecc71;
+	position: absolute;
+	z-index: 20;
+}
+
+/* Suburb Styles */
+.suburb{
+	position: absolute;
+	z-index: 1;
+	left: 900px;
+	top: 50px;
+}
+.suburb-hoz-container{
+	height: 200px;
+	margin-top: 1000px;
+}
+.suburb-hoz{
+	width: 3400px;
+	height: 10px;
+	background: #FFC90D;
+	margin: 50px;
+}
+.suburb-left-bend1{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #FFC90D;
+	border-radius: 0 23px 0 0;
+	margin: -65px 0 0 1465px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+.suburb-left-bend1:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.suburb-vert-small{
+	width: 10px;
+	height: 240px;
+	background: #FFC90D;
+	position: absolute;
+	margin-left: 1458px;
+	margin-top: -27px;
+}
+.suburb-vert-top{
+	width: 10px;
+	height: 1520px;
+	background: #FFC90D;
+	position: absolute;
+	margin-left: 3100px;	
+	margin-top: 40px;
+}
+.suburb-vert2{
+	width: 10px;
+	height: 540px;
+	background: #FFC90D;
+	position: absolute;
+	margin-left: 3089px;	
+	margin-top: -180px;
+}
+.suburb-vert3{
+	width: 10px;
+	height: 548px;
+	background: #FFC90D;
+	position: absolute;
+	margin-left: 3471px;	
+	margin-top: -41px;
+}
+.suburb-vert4{
+	width: 10px;
+	height: 608px;
+	background: #FFC90D;
+	position: absolute;
+	margin-left: 1840px;	
+	margin-top: 850px;
+}
+.suburb-right-bend1{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #FFC90D;
+	border-radius: 0 23px 0 0;
+	margin: 925px 0 0 2px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-180deg); /* IE 9 */
+	-webkit-transform:rotate(-180deg); /* Safari and Chrome */
+}
+.suburb-right-bend1:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.suburb-right-bend2{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #FFC90D;
+	border-radius: 0 23px 0 0;
+	margin: 0px 0 0 3018px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
+}
+.suburb-right-bend2:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.suburb-right-bend3{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #FFC90D;
+	border-radius: 0 23px 0 0;
+	margin: -60px 0 0 3450px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
+	-webkit-transform:rotate(0deg); /* Safari and Chrome */
+}
+.suburb-right-bend3:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.suburb-right-bend4{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #FFC90D;
+	border-radius: 0 23px 0 0;
+	margin: 494px 0 0 3443px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+}
+.suburb-right-bend4:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.suburb-right-bend5{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 2px;
+    border: 10px solid #FFC90D;
+	border-color: transparent transparent transparent #FFC90D;
+	border-style: solid;
+	margin: 351px 0 0 2278px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(40deg); /* Safari and Chrome */
+}
+.suburb-right-bend6{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 2px;
+    border: 10px solid #FFC90D;
+	border-color: transparent transparent transparent #FFC90D;
+	border-style: solid;
+	margin: 692px 0 0 1840px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(-0deg); /* Safari and Chrome */
+}
+.suburb-right-bend7{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 2px;
+    border: 10px solid #FFC90D;
+	border-color: transparent transparent transparent #FFC90D;
+	border-style: solid;
+	margin: 1430px 0 0 1657px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(-168deg); /* Safari and Chrome */
+}
+.suburb-right-hoz2{
+	height: 10px;
+	width: 1100px;
+	background: #FFC90D;
+	position: absolute;
+	margin: 382px 0 0 2360px;
+}
+.suburb-left-diag1{
+	height: 10px;
+	width: 500px;
+	background: #FFC90D;
+	position: absolute;
+	margin: 582px 0 0 1829px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-40deg); /* IE 9 */
+	-webkit-transform:rotate(-40deg); /* Safari and Chrome */
+}
+.suburb-left-diag2{
+	height: 10px;
+	width: 3200px;
+	background: #FFC90D;
+	position: absolute;
+	margin: 2528px 0 0 -1070px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-40deg); /* IE 9 */
+	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
+}
+
+/* Metro Phase 1 Styles */
+
+.metro1{
+	position: absolute;
+	z-index: 1;
+	top: 50px;
+	left: 900px;
+}
+.metro1-vert1{
+	width: 10px;
+	height: 540px;
+	background: #FFB896;
+	position: absolute;
+	margin-left: 3386px;	
+	margin-top: 1020px;
+}
+.metro1-right-bend1{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #FFB896;
+	border-radius: 0 23px 0 0;
+	margin: 1543px 0 0 3358px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	overflow: hidden;
+}
+.metro1-right-bend1:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.metro1-hoz1{
+	width: 710px;
+	height: 10px;
+	background: #FFB896;
+	position: absolute;
+	z-index: 2;
+	margin-left: 2664px;	
+	margin-top: 1571px;
+}
+.metro1-right-bend2{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #FFB896;
+	border-radius: 0 23px 0 0;
+	margin: 1564px 0 0 2644px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+.metro1-right-bend2:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.metro1-vert2{
+	width: 10px;
+	height: 310px;
+	background: #FFB896;
+	position: absolute;
+	margin-left: 2637px;	
+	margin-top: 1600px;
+}
+.metro1-right-bend3{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #FFB896;
+	border-style: solid;
+	margin: 1810px 0 0 2502px;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(-49deg);
+}
+.metro1-left-diag1{
+	height: 10px;
+	width: 1750px;
+	background: #FFB896;
+	position: absolute;
+	margin: 2545px 0 0 1023px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-41deg); /* IE 9 */
+	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
+}
+.metro1-right-bend4{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #FFB896;
+	border-style: solid;
+	margin: 2958px 0 0 1092px;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(-100deg);
+}
+.metro1-left-diag2{
+	height: 10px;
+	width: 50px;
+	background: #FFB896;
+	position: absolute;
+	margin: 3102px 0 0 1043px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-41deg); /* IE 9 */
+	-webkit-transform:rotate(18deg); /* Safari and Chrome */
+}
+.metro2-right-bend5{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 2px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #FFB896;
+	border-style: solid;
+	margin: 692px 0 0 1840px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(-0deg); /* Safari and Chrome */
+}
+
+
+
+/* MRTS Styles */
+
+.mrts{
+	position: absolute;
+	z-index: 0;
+	top: 50px;
+	left: 900px;
+}
+.mrts-vert1{
+	width: 10px;
+	height: 198px;
+	background: #3498db;
+	position: absolute;
+	margin-left: 3482px;	
+	margin-top: 1375px;
+}
+.mrts-right-bend1{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #3498db;
+	border-radius: 0 23px 0 0;
+	margin: 1565px 0 0 3454px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+}
+.mrts-right-bend1:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.mrts-hoz1{
+	width: 360px;
+	height: 10px;
+	background: #3498db;
+	position: absolute;
+	z-index: 2;
+	margin-left: 3110px;	
+	margin-top: 1593px;
+}
+.mrts-left-bend1{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #3498db;
+	border-radius: 0 23px 0 0;
+	margin: 1586px 0 0 3100px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+.mrts-left-bend1:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.mrts-vert2{
+	width: 10px;
+	height: 450px;
+	background: #3498db;
+	position: absolute;
+	margin-left: 3093px;	
+	margin-top: 1620px;
+}
+.mrts-right-bend2{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+    border: 10px solid #3498db;
+	border-color: transparent transparent transparent #3498db;
+	border-style: solid;
+	margin: 1975px 0 0 2958px;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(-49deg);
+}
+.mrts-left-diag1{
+	height: 10px;
+	width: 1350px;
+	background: #3498db;
+	position: absolute;
+	margin: 2586px 0 0 1838px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-41deg); /* IE 9 */
+	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
+}
+.mrts-left-bend3{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #3498db;
+	border-radius: 0 23px 0 0;
+	margin: 2980px 0 0 1944px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(138deg); /* Safari and Chrome */
+}
+.mrts-left-bend3:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.mrts-left-diag2{
+	height: 10px;
+	width: 300px;
+	background: #3498db;
+	position: absolute;
+	margin: 2900px 0 0 1697px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-41deg); /* IE 9 */
+	-webkit-transform:rotate(45deg); /* Safari and Chrome */
+}
+
+/* Metro Phase 2 Styles */
+
+.metro2{
+	position: absolute;
+	z-index: 1;
+	top: 50px;
+	left: 900px;
+}
+.metro2-hoz1{
+	width: 1120px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 2;
+	margin-left: 2220px;	
+	margin-top: 1560px;
+}
+.metro2-right-bend1{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #2ecc71;
+	border-style: solid;
+	margin: 1426px 0 0 2135px;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(230deg);
+}
+.metro2-diag1{
+	width: 210px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 2;
+	margin-left: 1925px;	
+	margin-top: 1460px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(38deg);
+}
+.metro2-right-bend2{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #2ecc71;
+	border-style: solid;
+	margin: 1332px 0 0 1750px;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(1, -1) rotate(-130deg);
+}
+.metro2-hoz2{
+	width: 360px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 2;
+	margin-left: 1480px;	
+	margin-top: 1362px;
+}
+.metro2-left-bend3{
+	position: absolute;
+	width: 31px;
+	height: 45px;
+	background: #2ecc71;
+	border-radius: 0 23px 0 0;
+	margin: 1355px 0 0 1465px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-90deg); /* IE 9 */
+	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
+}
+.metro2-left-bend3:after {
+	height: 60px;
+	width: 52px;
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	top: 10px;
+	left: -29px;
+	border-radius: 50px;
+}
+.metro2-vert1{
+	width: 10px;
+	height: 1100px;
+	background: #2ecc71;
+	position: absolute;
+	margin-left: 1458px;
+	margin-top: 1390px;
+}
+.metro2-right-bend4{
+	position: absolute;
+	width: 158px;
+	height: 154px;
+	border-top-left-radius: 164px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 2px;
+    border: 10px solid #FFB896;
+	border-color: transparent transparent transparent #2ecc71;
+	border-style: solid;
+	margin: 2390px 0 0 1425.4px;
+	z-index: -1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform:rotate(-45deg); /* Safari and Chrome */
+}
+.metro2-diag2{
+	width: 193px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 0;
+	margin-left: 1487px;	
+	margin-top: 2648px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(-40deg);
+}
+.metro2-diag3{
+	width: 52px;
+	height: 10px;
+	background: #2ecc71;
+	position: absolute;
+	z-index: 0;
+	margin-left: 1679px;	
+	margin-top: 2758px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-webkit-transform: scale(-1, 1) rotate(-44deg);
+}
+
+
+
+/* Common Endpoints */
+
+.suburb-endpoint{
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+	position: absolute;
+	background: #FFC90D;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
+	-webkit-transform:rotate(45deg); /* Safari and Chrome */
+}
+
+/*List of Stations*/
+
+#stn-hinducollege{
+	position: absolute;
+	margin: -15px 0 0 200px;
+}
+#stn-avadi{
+	position: absolute;
+	margin: -15px 0 0 400px;
+}
+#stn-annanur{
+	position: absolute;
+	margin: -15px 0 0 534px;
+}
+#stn-thirumullaivoyal{
+	position: absolute;
+	margin: -15px 0 0 734px;
+}
+#stn-ambattur{
+	position: absolute;
+	margin: -15px 0 0 968px;
+}
+#stn-pattaravakkam{
+	position: absolute;
+	margin: -15px 0 0 1150px;
+}
+#stn-korattur{
+	position: absolute;
+	margin: -15px 0 0 1350px;
+}
+#stn-villivakkam{
+	position: absolute;
+	margin: -15px 0 0 1650px;
+}
+#stn-locoworks{
+	position: absolute;
+	margin: -15px 0 0 1935px;
+}
+#stn-carriageworks{
+	position: absolute;
+	margin: -15px 0 0 2185px;
+}
+#stn-perambur{
+	position: absolute;
+	margin: -15px 0 0 2468px;
+}
+#stn-vyasarpadi{
+	position: absolute;
+	margin: -15px 0 0 2774px;
+}
+#stn-washermanpet{
+	position: absolute;
+	margin: -15px 0 0 3320px;
+}
+#stn-padi{
+	position: absolute;
+	margin: 100px 0 0 -17px;
+}
+#stn-annanagarwest{
+	position: absolute;
+	margin: 200px 0 0 -17px;	
+}
+#stn-korukkupet{
+	position: absolute;
+	margin: 793px 0 0 -17px;	
+}
+#stn-tondiarpet{
+	position: absolute;
+	margin: 627px 0 0 -17px;	
+}
+#stn-tiruvottiyur{
+	position: absolute;
+	margin: 477px 0 0 -17px;	
+}
+#stn-wimco{
+	position: absolute;
+	margin: 327px 0 0 -17px;	
+}
+#stn-kathivakkam{
+	position: absolute;
+	margin: 194px 0 0 -17px;	
+}
+#stn-ennore{
+	position: absolute;
+	margin: 27px 0 0 -17px;	
+}
+#stn-basinbridge{
+	position: absolute;
+	margin: 150px 0 0 -10px;		
+}
+#stn-basinbridge{
+	position: absolute;
+	margin: 150px 0 0 -10px;		
+}
+#stn-central1{
+	position: absolute;
+	margin: 500px 0 0 -10px;		
+}
+#stn-royapuram{
+	position: absolute;
+	margin: 100px 0 0 -17px;
+}
+#stn-beach{
+	position: absolute;
+	margin: 350px 0 0 -10px;
+}
+#stn-fort1{
+	position: absolute;
+	margin: -8px 0 0 0px;
+	right: 40px;
+}
+#stn-park1{
+	position: absolute;
+	margin: -5px 0 0 0px;
+	right: 385px;
+}
+#stn-egmore{
+	position: absolute;
+	margin: -11px 0 0 0px;
+	right: 860px;
+}
+#stn-chetpet{
+	position: absolute;
+	margin: -15px 0 0 0px;
+	right: 0;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-nungambakkam{
+	position: absolute;
+	margin: -15px 0 0 0px;
+	left: 50%;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-kodambakkam{
+	position: absolute;
+	margin: -15px 0 0 0px;
+	left: 0px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-mambalam{
+	position: absolute;
+	margin: 27px 0 0 -17px;
+}
+#stn-saidapet{
+	position: absolute;
+	margin: 270px 0 0 -17px;
+}
+#stn-guindy1{
+	position: absolute;
+	margin: 590px 0 0 -17px;
+}
+#stn-mount{
+	position: absolute;
+	margin: -13px 0 0 3105px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-pazhavanthangal{
+	position: absolute;
+	margin: -13px 0 0 2795px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-meenambakkam{
+	position: absolute;
+	margin: -13px 0 0 2595px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-tirusulam{
+	position: absolute;
+	margin: -13px 0 0 2445px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-pallavaram{
+	position: absolute;
+	margin: -13px 0 0 2295px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-chrompet{
+	position: absolute;
+	margin: -13px 0 0 2145px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-sanatorium{
+	position: absolute;
+	margin: -13px 0 0 1978px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-tambaram{
+	position: absolute;
+	margin: -13px 0 0 1811px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-perungalathur{
+	position: absolute;
+	margin: -13px 0 0 1611px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-vandalur{
+	position: absolute;
+	margin: -13px 0 0 1461px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-urapakkam{
+	position: absolute;
+	margin: -13px 0 0 1295px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-guduvancheri{
+	position: absolute;
+	margin: -13px 0 0 1145px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-potheri{
+	position: absolute;
+	margin: -13px 0 0 995px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-kattangulathur{
+	position: absolute;
+	margin: -13px 0 0 875px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-maraimalainagar{
+	position: absolute;
+	margin: -13px 0 0 790px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-singaperumal{
+	position: absolute;
+	margin: -13px 0 0 570px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-paranur{
+	position: absolute;
+	margin: -13px 0 0 370px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-chengalpattu{
+	position: absolute;
+	margin: -13px 0 0 150px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-egmore1{
+	position: absolute;
+	margin: 1px 0 0 -17px;
+}
+#stn-lic{
+	position: absolute;
+	margin: 180px 0 0 -17px;
+}
+#stn-thousandlights{
+	position: absolute;
+	margin: -13px 0 0 1706px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-gemini{
+	position: absolute;
+	margin: -13px 0 0 1534px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-teynampet{
+	position: absolute;
+	margin: -13px 0 0 1362px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-nandanam{
+	position: absolute;
+	margin: -13px 0 0 1190px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-saidapet1{
+	position: absolute;
+	margin: -13px 0 0 1018px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-littlemount{
+	position: absolute;
+	margin: -13px 0 0 846px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-guindy2{
+	position: absolute;
+	margin: -13px 0 0 726px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-alandur{
+	position: absolute;
+	margin: -13px 0 0 565px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+	z-index: 4;
+}
+#stn-ota{
+	position: absolute;
+	margin: -13px 0 0 377px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-iac{
+	position: absolute;
+	margin: -13px 0 0 189px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-meenambakkam2{
+	position: absolute;
+	margin: -13px 0 0 55px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-airport{
+	position: absolute;
+	margin: -13px 0 0 0px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(-18deg); /* Safari and Chrome */
+}
+#stn-park2{
+	position: absolute;
+	margin: -25px 0 0 -17px;
+}
+#stn-chintadripet{
+	position: absolute;
+	margin: 112px 0 0 -17px;
+}
+#stn-chepauk{
+	position: absolute;
+	margin: 224px 0 0 -17px;
+}
+#stn-triplicane{
+	position: absolute;
+	margin: 336px 0 0 -17px;
+}
+#stn-lighthouse{
+	position: absolute;
+	margin: 440px 0 0 -17px;
+}
+#stn-puzhuthivakkam{
+	position: absolute;
+	margin: -17px 0 0 0px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-velachery{
+	position: absolute;
+	margin: -17px 0 0 122px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-perungudi{
+	position: absolute;
+	margin: -17px 0 0 244px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-taramani{
+	position: absolute;
+	margin: -17px 0 0 366px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-thiruvanmiyur{
+	position: absolute;
+	margin: -17px 0 0 488px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-indira{
+	position: absolute;
+	margin: -17px 0 0 610px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-kasturiba{
+	position: absolute;
+	margin: -17px 0 0 732px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-kotturpuram{
+	position: absolute;
+	margin: -17px 0 0 854px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-greenways{
+	position: absolute;
+	margin: -17px 0 0 974px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-mandaveli{
+	position: absolute;
+	margin: -17px 0 0 1096px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-mylapore{
+	position: absolute;
+	margin: -17px 0 0 1208px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(38deg); /* Safari and Chrome */
+}
+#stn-mundaikanni{
+	position: absolute;
+	margin: 130px 0 0 -27px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(228deg) scale(1, -1); /* Safari and Chrome */
+	z-index: 20;
+}
+#stn-adambakkam{
+	position: absolute;
+	margin: -17px 0 0 100px;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(-48deg); /* Safari and Chrome */
+	z-index: 20;
+}
+#stn-fort2{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: -25px;
+	z-index: 1;
+}
+#stn-vepery{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: 700px;
+	z-index: 1;
+}
+#stn-shastrinagar{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: 920px;
+	z-index: 1;
+}
+#stn-kmch{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	left: -20px;
+	z-index: 1;
+}
+#stn-annanagareast{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: -10px;
+	z-index: 1;
+}
+#stn-annanagartower{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: 50%;
+	z-index: 1;
+}
+#stn-shenoynagar{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	left: 0;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
+}
+#stn-aminjikarai{
+	position: absolute;
+	margin: -18px 0 0 0px;
+	right: 0;
+	z-index: 1;
+	transform:rotate(-45deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
+	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
+}
+#stn-thirumangalam{
+	position: absolute;
+	margin: 18px 0 0 -17px;
+	top: 0;
+	z-index: 1;
+}
+#stn-sidco{
+	position: absolute;
+	margin: 0px 0 0px -17px;
+	bottom: 0;
+	z-index: 1;
+}
+#stn-arumbakkam{
+	position: absolute;
+	margin: 152px 0 18px -17px;
+	z-index: 1;
+}
+#stn-koyambedu{
+	position: absolute;
+	margin: 304px 0 18px -17px;
+	z-index: 1;
+}
+#stn-cmbt{
+	position: absolute;
+	margin: 456px 0 18px -17px;
+	z-index: 1;
+}
+#stn-vadapalani{
+	position: absolute;
+	margin: 608px 0 18px -17px;
+	z-index: 1;
+}
+#stn-ashoknagar{
+	position: absolute;
+	margin: 760px 0 18px -17px;
+	z-index: 1;
+}
+#stn-kknagar{
+	position: absolute;
+	margin: 912px 0 18px -17px;
+	z-index: 1;
+}
+
+
+/* Station Names */
+
+.stn-name{
+	position: absolute;
+	color: #434343;
+	font-family: 'OpenSans Light';
+}
+.name-interchange{
+	font-weight: 900;
+}
+.name-hinducollege{
+	position: absolute;
+	margin: 45px 0 0 -35px;
+	width: 200px;
+}
+
+.name-avadi{
+	position: absolute;
+	margin: 45px 0 0 -5px;
+	width: 200px;
+}
+.name-annanur{
+	position: absolute;
+	margin: 45px 0 0 -18px;
+	width: 200px;
+}
+.name-thirumullaivoyal{
+	position: absolute;
+	margin: 45px 0 0 -45px;
+	width: 200px;
+}
+.name-ambattur{
+	position: absolute;
+	margin: 45px 0 0 -20px;
+	width: 200px;
+}
+.name-pattaravakkam{
+	position: absolute;
+	margin: 45px 0 0 -40px;
+	width: 200px;
+}
+.name-korattur{
+	position: absolute;
+	margin: 45px 0 0 -18px;
+	width: 200px;
+}
+.name-villivakkam{
+	position: absolute;
+	margin: 45px 0 0 -25px;
+	width: 200px;
+}
+.name-locoworks{
+	position: absolute;
+	margin: 45px 0 0 -60px;
+	width: 200px;
+}
+.name-carriageworks{
+	position: absolute;
+	margin: 45px 0 0 -70px;
+	width: 200px;
+}
+.name-perambur{
+	position: absolute;
+	margin: 45px 0 0 -20px;
+	width: 200px;
+}
+.name-vyasarpadi{
+	position: absolute;
+	margin: 45px 0 0 -40px;
+	width: 200px;
+}
+.name-washermanpet{
+	position: absolute;
+	margin: -30px 0 0 -40px;
+	width: 200px;
+}
+.name-padi{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-annanagarwest{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-korukkupet{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-tondiarpet{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-tiruvottiyur{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-wimco{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-kathivakkam{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-ennore{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-basinbridge{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 200px;
+}
+.name-central1{
+	position: absolute;
+	margin: 8px 0 0 -135px;
+	width: 200px;
+}
+.name-royapuram{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-beach{
+	position: absolute;
+	margin: 8px 0 0 45px;
+	width: 200px;
+}
+.name-fort{
+	position: absolute;
+	margin: 45px 0 0 -30px;
+	width: 200px;
+}
+.name-park1{
+	position: absolute;
+	margin: 38px 0 0 -100px;
+	width: 200px;
+}
+.name-egmore{
+	position: absolute;
+	margin: 45px 0 0 -50px;
+	width: 100px;
+	text-align: center;
+}
+.name-chetpet{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;
+}
+.name-kodambakkam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;
+}
+.name-nungambakkam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;
+}
+.name-mambalam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;
+}
+.name-saidapet{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;
+}
+.name-guindy{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;
+}
+.name-mount{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-pazhavanthangal{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-meenambakkam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-tirusulam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-pallavaram{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-chrompet{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-sanatorium{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-tambaram{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-perungalathur{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-vandalur{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-urapakkam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-guduvancheri{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-potheri{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-kattangulathur{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-maraimalainagar{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-singaperumal{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-paranur{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-chengalpattu{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-lic{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-thousandlights{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-gemini{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-teynampet{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-nandanam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-saidapet1{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-littlemount{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-alandur{
+	position: absolute;
+	margin: 5px 0 0 -78px;
+	width: 200px;	
+}
+.name-ota{
+	position: absolute;
+	margin: -10px 0 0 -210px;
+	width: 200px;	
+}
+.name-iac{
+	position: absolute;
+	margin: -10px 0 0 -165px;
+	width: 200px;	
+}
+.name-airport{
+	position: absolute;
+	margin: -40px 0 0 -150px;
+	width: 200px;	
+	line-height: 25px;
+	text-align: center;
+}
+.name-park2{
+	position: absolute;
+	margin: 25px 0 0 40px;
+	width: 200px;
+}
+.name-chintadripet{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-chepauk{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-triplicane{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-lighthouse{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-mundaikanni{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-mylapore{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-mandaveli{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-greenways{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-kotturpuram{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-kasturiba{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-indira{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-thiruvanmiyur{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-taramani{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-perungudi{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-velachery{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-puzhuthivakkam{
+	position: absolute;
+	margin: 10px 0 0 45px;
+	width: 200px;	
+}
+.name-adambakkam{
+	position: absolute;
+	margin: 10px 0 0 -130px;
+	width: 200px;	
+}
+.name-vepery{
+	position: absolute;
+	margin: -25px 0 0 -10px;
+	width: 200px;	
+}
+.name-shastrinagar{
+	position: absolute;
+	margin: -45px 0 0 -35px;
+	width: 100px;	
+	text-align: center;
+}
+.name-kmch{
+	position: absolute;
+	margin: -25px 0 0 -35px;
+	width: 100px;	
+	text-align: center;
+}
+.name-annanagareast{
+	position: absolute;
+	margin: -40px 0 0 -35px;
+	width: 100px;	
+	text-align: center;
+}
+.name-annanagartower{
+	position: absolute;
+	margin: -40px 0 0 -35px;
+	width: 100px;	
+	text-align: center;
+}
+.name-shenoynagar{
+	position: absolute;
+	margin: -20px 0 0 15px;
+	width: 100px;	
+	text-align: center;
+}
+.name-aminjikarai{
+	position: absolute;
+	margin: -25px 0 0 0px;
+	width: 100px;	
+	text-align: center;
+}
+.name-thirumangalam{
+	position: absolute;
+	margin: 8px 0 0 -130px;
+	width: 100px;	
+	text-align: center;
+}
+.name-sidco{
+	position: absolute;
+	margin: 8px 0 0 -130px;
+	width: 100px;	
+	text-align: center;
+}
+.name-arumbakkam{
+	position: absolute;
+	margin: 8px 0 0 -115px;
+	width: 100px;	
+	text-align: center;
+}
+.name-koyambedu{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
+.name-cmbt{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
+.name-vadapalani{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
+.name-ashoknagar{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
+.name-kknagar{
+	position: absolute;
+	margin: 8px 0 0 -110px;
+	width: 100px;	
+	text-align: center;
+}
+
+/* Specific Endpoints */
+
+#endpoint-hindu{
+	margin: -5px 0 0 48px;
+}
+#endpoint-ennore{
+	margin: -20px 0 0 -5px;
+}
+#endpoint-chengalpattu{
+	margin: -5px 0 0 -5px;
+}
