@@ -84,7 +84,7 @@
 	border-radius: 0 23px 0 0;
 	margin: -65px 0 0 1465px;
 	z-index: -1;
-	transform:rotate(-45deg);
+	transform:rotate(-90deg);
 	-ms-transform:rotate(-90deg); /* IE 9 */
 	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
 }
@@ -146,7 +146,7 @@
 	border-radius: 0 23px 0 0;
 	margin: 925px 0 0 2px;
 	z-index: -1;
-	transform:rotate(-45deg);
+	transform:rotate(-180deg);
 	-ms-transform:rotate(-180deg); /* IE 9 */
 	-webkit-transform:rotate(-180deg); /* Safari and Chrome */
 }
@@ -168,7 +168,7 @@
 	border-radius: 0 23px 0 0;
 	margin: 0px 0 0 3018px;
 	z-index: -1;
-	transform:rotate(-45deg);
+	transform:rotate(0deg);
 	-ms-transform:rotate(0deg); /* IE 9 */
 	-webkit-transform:rotate(0deg); /* Safari and Chrome */
 }
@@ -190,7 +190,7 @@
 	border-radius: 0 23px 0 0;
 	margin: -60px 0 0 3450px;
 	z-index: -1;
-	transform:rotate(-45deg);
+	transform:rotate(0deg);
 	-ms-transform:rotate(0deg); /* IE 9 */
 	-webkit-transform:rotate(0deg); /* Safari and Chrome */
 }
@@ -212,7 +212,7 @@
 	border-radius: 0 23px 0 0;
 	margin: 494px 0 0 3443px;
 	z-index: -1;
-	transform:rotate(-45deg);
+	transform:rotate(90deg);
 	-ms-transform:rotate(90deg); /* IE 9 */
 	-webkit-transform:rotate(90deg); /* Safari and Chrome */
 }
@@ -239,8 +239,8 @@
 	border-style: solid;
 	margin: 351px 0 0 2278px;
 	z-index: -1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform:rotate(40deg);
+	-ms-transform:rotate(40deg); /* IE 9 */
 	-webkit-transform:rotate(40deg); /* Safari and Chrome */
 }
 .suburb-right-bend6{
@@ -256,8 +256,8 @@
 	border-style: solid;
 	margin: 692px 0 0 1840px;
 	z-index: -1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
 	-webkit-transform:rotate(-0deg); /* Safari and Chrome */
 }
 .suburb-right-bend7{
@@ -273,8 +273,8 @@
 	border-style: solid;
 	margin: 1430px 0 0 1657px;
 	z-index: -1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform:rotate(-168deg);
+	-ms-transform:rotate(-168deg); /* IE 9 */
 	-webkit-transform:rotate(-168deg); /* Safari and Chrome */
 }
 .suburb-right-hoz2{
@@ -290,7 +290,7 @@
 	background: #FFC90D;
 	position: absolute;
 	margin: 582px 0 0 1829px;
-	transform:rotate(-45deg);
+	transform:rotate(-40deg);
 	-ms-transform:rotate(-40deg); /* IE 9 */
 	-webkit-transform:rotate(-40deg); /* Safari and Chrome */
 }
@@ -300,8 +300,8 @@
 	background: #FFC90D;
 	position: absolute;
 	margin: 2528px 0 0 -1070px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(-40deg); /* IE 9 */
+	transform:rotate(-38deg);
+	-ms-transform:rotate(-38deg); /* IE 9 */
 	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
 }
 
@@ -329,7 +329,7 @@
 	border-radius: 0 23px 0 0;
 	margin: 1543px 0 0 3358px;
 	z-index: -1;
-	transform:rotate(-45deg);
+	transform:rotate(90deg);
 	-ms-transform:rotate(90deg); /* IE 9 */
 	-webkit-transform:rotate(90deg); /* Safari and Chrome */
 	overflow: hidden;
@@ -360,7 +360,7 @@
 	background: #FFB896;
 	border-radius: 0 23px 0 0;
 	margin: 1564px 0 0 2644px;
-	transform:rotate(-45deg);
+	transform:rotate(-90deg);
 	-ms-transform:rotate(-90deg); /* IE 9 */
 	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
 }
@@ -395,8 +395,8 @@
 	border-style: solid;
 	margin: 1810px 0 0 2502px;
 	z-index: 1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform: scale(-1, 1) rotate(-49deg);
+	-ms-transform: scale(-1, 1) rotate(-49deg);
 	-webkit-transform: scale(-1, 1) rotate(-49deg);
 }
 .metro1-left-diag1{
@@ -405,8 +405,8 @@
 	background: #FFB896;
 	position: absolute;
 	margin: 2545px 0 0 1023px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(-41deg); /* IE 9 */
+	transform:rotate(-38deg);
+	-ms-transform:rotate(-38deg); /* IE 9 */
 	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
 }
 .metro1-right-bend4{
@@ -422,8 +422,8 @@
 	border-style: solid;
 	margin: 2958px 0 0 1092px;
 	z-index: 1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform: scale(-1, 1) rotate(-100deg);
+	-ms-transform: scale(-1, 1) rotate(-100deg);
 	-webkit-transform: scale(-1, 1) rotate(-100deg);
 }
 .metro1-left-diag2{
@@ -432,8 +432,8 @@
 	background: #FFB896;
 	position: absolute;
 	margin: 3102px 0 0 1043px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(-41deg); /* IE 9 */
+	transform:rotate(18deg); /* Safari and Chrome */
+	-ms-transform:rotate(18deg); /* Safari and Chrome */
 	-webkit-transform:rotate(18deg); /* Safari and Chrome */
 }
 .metro2-right-bend5{
@@ -449,8 +449,8 @@
 	border-style: solid;
 	margin: 692px 0 0 1840px;
 	z-index: -1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); /* IE 9 */
 	-webkit-transform:rotate(-0deg); /* Safari and Chrome */
 }
 
@@ -480,7 +480,7 @@
 	border-radius: 0 23px 0 0;
 	margin: 1565px 0 0 3454px;
 	z-index: -1;
-	transform:rotate(-45deg);
+	transform:rotate(90deg);
 	-ms-transform:rotate(90deg); /* IE 9 */
 	-webkit-transform:rotate(90deg); /* Safari and Chrome */
 }
@@ -511,7 +511,7 @@
 	border-radius: 0 23px 0 0;
 	margin: 1586px 0 0 3100px;
 	z-index: -1;
-	transform:rotate(-45deg);
+	transform:rotate(-90deg);
 	-ms-transform:rotate(-90deg); /* IE 9 */
 	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
 }
@@ -546,8 +546,8 @@
 	border-style: solid;
 	margin: 1975px 0 0 2958px;
 	z-index: 1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform: scale(-1, 1) rotate(-49deg);
+	-ms-transform: scale(-1, 1) rotate(-49deg);
 	-webkit-transform: scale(-1, 1) rotate(-49deg);
 }
 .mrts-left-diag1{
@@ -556,8 +556,8 @@
 	background: #3498db;
 	position: absolute;
 	margin: 2586px 0 0 1838px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(-41deg); /* IE 9 */
+	transform:rotate(-38deg);
+	-ms-transform:rotate(-38deg); /* IE 9 */
 	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
 }
 .mrts-left-bend3{
@@ -568,8 +568,8 @@
 	border-radius: 0 23px 0 0;
 	margin: 2980px 0 0 1944px;
 	z-index: -1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(-90deg); /* IE 9 */
+	transform:rotate(138deg);
+	-ms-transform:rotate(138deg); /* IE 9 */
 	-webkit-transform:rotate(138deg); /* Safari and Chrome */
 }
 .mrts-left-bend3:after {
@@ -588,8 +588,8 @@
 	background: #3498db;
 	position: absolute;
 	margin: 2900px 0 0 1697px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(-41deg); /* IE 9 */
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg); /* IE 9 */
 	-webkit-transform:rotate(45deg); /* Safari and Chrome */
 }
 
@@ -623,8 +623,8 @@
 	border-style: solid;
 	margin: 1426px 0 0 2135px;
 	z-index: 1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform:scale(-1, 1) rotate(230deg);
+	-ms-transform:scale(-1, 1) rotate(230deg);
 	-webkit-transform: scale(-1, 1) rotate(230deg);
 }
 .metro2-diag1{
@@ -635,8 +635,8 @@
 	z-index: 2;
 	margin-left: 1925px;	
 	margin-top: 1460px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform:rotate(38deg);
+	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform: rotate(38deg);
 }
 .metro2-right-bend2{
@@ -652,8 +652,8 @@
 	border-style: solid;
 	margin: 1332px 0 0 1750px;
 	z-index: 1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform: scale(1, -1) rotate(-130deg);
+	-ms-transform: scale(1, -1) rotate(-130deg);
 	-webkit-transform: scale(1, -1) rotate(-130deg);
 }
 .metro2-hoz2{
@@ -673,7 +673,7 @@
 	border-radius: 0 23px 0 0;
 	margin: 1355px 0 0 1465px;
 	z-index: -1;
-	transform:rotate(-45deg);
+	transform:rotate(-90deg);
 	-ms-transform:rotate(-90deg); /* IE 9 */
 	-webkit-transform:rotate(-90deg); /* Safari and Chrome */
 }
@@ -709,7 +709,7 @@
 	margin: 2390px 0 0 1425.4px;
 	z-index: -1;
 	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	-ms-transform:rotate(-45deg); /* IE 9 */
 	-webkit-transform:rotate(-45deg); /* Safari and Chrome */
 }
 .metro2-diag2{
@@ -720,8 +720,8 @@
 	z-index: 0;
 	margin-left: 1487px;	
 	margin-top: 2648px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform: scale(-1, 1) rotate(-40deg);
+	-ms-transform: scale(-1, 1) rotate(-40deg);
 	-webkit-transform: scale(-1, 1) rotate(-40deg);
 }
 .metro2-diag3{
@@ -732,8 +732,8 @@
 	z-index: 0;
 	margin-left: 1679px;	
 	margin-top: 2758px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(90deg); /* IE 9 */
+	transform: scale(-1, 1) rotate(-44deg);
+	-ms-transform: scale(-1, 1) rotate(-44deg);
 	-webkit-transform: scale(-1, 1) rotate(-44deg);
 }
 
@@ -877,7 +877,7 @@
 	position: absolute;
 	margin: -15px 0 0 0px;
 	right: 0;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
@@ -885,7 +885,7 @@
 	position: absolute;
 	margin: -15px 0 0 0px;
 	left: 50%;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
@@ -893,7 +893,7 @@
 	position: absolute;
 	margin: -15px 0 0 0px;
 	left: 0px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
@@ -912,126 +912,126 @@
 #stn-mount{
 	position: absolute;
 	margin: -13px 0 0 3105px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-pazhavanthangal{
 	position: absolute;
 	margin: -13px 0 0 2795px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-meenambakkam{
 	position: absolute;
 	margin: -13px 0 0 2595px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-tirusulam{
 	position: absolute;
 	margin: -13px 0 0 2445px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-pallavaram{
 	position: absolute;
 	margin: -13px 0 0 2295px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-chrompet{
 	position: absolute;
 	margin: -13px 0 0 2145px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-sanatorium{
 	position: absolute;
 	margin: -13px 0 0 1978px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-tambaram{
 	position: absolute;
 	margin: -13px 0 0 1811px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-perungalathur{
 	position: absolute;
 	margin: -13px 0 0 1611px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-vandalur{
 	position: absolute;
 	margin: -13px 0 0 1461px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-urapakkam{
 	position: absolute;
 	margin: -13px 0 0 1295px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-guduvancheri{
 	position: absolute;
 	margin: -13px 0 0 1145px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-potheri{
 	position: absolute;
 	margin: -13px 0 0 995px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-kattangulathur{
 	position: absolute;
 	margin: -13px 0 0 875px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-maraimalainagar{
 	position: absolute;
 	margin: -13px 0 0 790px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-singaperumal{
 	position: absolute;
 	margin: -13px 0 0 570px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-paranur{
 	position: absolute;
 	margin: -13px 0 0 370px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-chengalpattu{
 	position: absolute;
 	margin: -13px 0 0 150px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
@@ -1046,56 +1046,56 @@
 #stn-thousandlights{
 	position: absolute;
 	margin: -13px 0 0 1706px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-gemini{
 	position: absolute;
 	margin: -13px 0 0 1534px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-teynampet{
 	position: absolute;
 	margin: -13px 0 0 1362px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-nandanam{
 	position: absolute;
 	margin: -13px 0 0 1190px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-saidapet1{
 	position: absolute;
 	margin: -13px 0 0 1018px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-littlemount{
 	position: absolute;
 	margin: -13px 0 0 846px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-guindy2{
 	position: absolute;
 	margin: -13px 0 0 726px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-alandur{
 	position: absolute;
 	margin: -13px 0 0 565px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 	z-index: 4;
@@ -1103,29 +1103,29 @@
 #stn-ota{
 	position: absolute;
 	margin: -13px 0 0 377px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-iac{
 	position: absolute;
 	margin: -13px 0 0 189px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-meenambakkam2{
 	position: absolute;
 	margin: -13px 0 0 55px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-airport{
 	position: absolute;
 	margin: -13px 0 0 0px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(38deg); /* IE 9 */
+	transform:rotate(-18deg);
+	-ms-transform:rotate(-188deg); /* IE 9 */
 	-webkit-transform:rotate(-18deg); /* Safari and Chrome */
 }
 #stn-park2{
@@ -1151,93 +1151,93 @@
 #stn-puzhuthivakkam{
 	position: absolute;
 	margin: -17px 0 0 0px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-velachery{
 	position: absolute;
 	margin: -17px 0 0 122px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-perungudi{
 	position: absolute;
 	margin: -17px 0 0 244px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-taramani{
 	position: absolute;
 	margin: -17px 0 0 366px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-thiruvanmiyur{
 	position: absolute;
 	margin: -17px 0 0 488px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-indira{
 	position: absolute;
 	margin: -17px 0 0 610px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-kasturiba{
 	position: absolute;
 	margin: -17px 0 0 732px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-kotturpuram{
 	position: absolute;
 	margin: -17px 0 0 854px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-greenways{
 	position: absolute;
 	margin: -17px 0 0 974px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-mandaveli{
 	position: absolute;
 	margin: -17px 0 0 1096px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-mylapore{
 	position: absolute;
 	margin: -17px 0 0 1208px;
-	transform:rotate(-45deg);
+	transform:rotate(38deg);
 	-ms-transform:rotate(38deg); /* IE 9 */
 	-webkit-transform:rotate(38deg); /* Safari and Chrome */
 }
 #stn-mundaikanni{
 	position: absolute;
 	margin: 130px 0 0 -27px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(38deg); /* IE 9 */
+	transform:rotate(228deg) scale(1, -1);
+	-ms-transform:rotate(228deg) scale(1, -1);
 	-webkit-transform:rotate(228deg) scale(1, -1); /* Safari and Chrome */
 	z-index: 20;
 }
 #stn-adambakkam{
 	position: absolute;
 	margin: -17px 0 0 100px;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(38deg); /* IE 9 */
+	transform:rotate(-48deg);
+	-ms-transform:rotate(-48deg); /* IE 9 */
 	-webkit-transform:rotate(-48deg); /* Safari and Chrome */
 	z-index: 20;
 }
@@ -1282,8 +1282,8 @@
 	margin: -18px 0 0 0px;
 	left: 0;
 	z-index: 1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(38deg); /* IE 9 */
+	transform:rotate(-38deg);
+	-ms-transform:rotate(-38deg); /* IE 9 */
 	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
 }
 #stn-aminjikarai{
@@ -1291,8 +1291,8 @@
 	margin: -18px 0 0 0px;
 	right: 0;
 	z-index: 1;
-	transform:rotate(-45deg);
-	-ms-transform:rotate(38deg); /* IE 9 */
+	transform:rotate(-38deg);
+	-ms-transform:rotate(-38deg); /* IE 9 */
 	-webkit-transform:rotate(-38deg); /* Safari and Chrome */
 }
 #stn-thirumangalam{
