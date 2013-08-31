@@ -7,3 +7,10 @@
 	border-bottom: 1px solid #CCC;
 	z-index: 99;
 }
+#logo{
+	width: 204px;
+	height: 32px;
+	background: url('../images/logo.png') no-repeat;
+	margin: 9px 10px;
+	float: left;
+}
