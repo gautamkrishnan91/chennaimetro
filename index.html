@@ -3,14 +3,17 @@
 		<link rel="stylesheet" type="text/css" href="css/mapstyle.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body>
 		<div id="header">
 			<div id="logo"></div>
-			<div id="legend-button"></div>
+			<div id="legend-button" onclick="showHideLegend();"></div>
 		</div>
-		<div id="legend-triangle"></div>
 		<div id="legend-wrapper">
+			<div id="legend-triangle"></div>
+			<div id="legend-inner"></div>
 		</div>
 		<div id="map-wrapper">
 			<div class="metro1">

@@ -25,17 +25,20 @@ body{
 	float: right;
 	margin: 13px 10px 0 0;
 }
+#legend-wrapper{
+	display: none;
+}
 #legend-triangle{
 	width: 20px;
 	height: 8px;
 	background-image: url('../images/sprite.png');
 	background-position: -19px -1px;
 	position: fixed;
-	right: 12px;
+	right: 11px;
 	top: 50px;
 	z-index: 100;
 }
-#legend-wrapper{
+#legend-inner{
 	width: 300px;
 	height: 300px;
 	border: 1px solid #DDD;
