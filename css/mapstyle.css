@@ -28,7 +28,7 @@
 .station{
 	width: 32px;
 	height: 32px;
-	background: url('../images/train.png') #FFF;
+	background: url('../images/train.png') #EDF8FA;
 	border-radius: 50%;
 	position: absolute;
 	z-index: 20;
@@ -92,7 +92,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -154,7 +154,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -176,7 +176,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -198,7 +198,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -220,7 +220,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -338,7 +338,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -368,7 +368,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -488,7 +488,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -519,7 +519,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -576,7 +576,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;
@@ -681,7 +681,7 @@
 	height: 60px;
 	width: 52px;
 	content: '';
-	background-color: #fff;
+	background-color: #EDF8FA;
 	position: absolute;
 	top: 10px;
 	left: -29px;

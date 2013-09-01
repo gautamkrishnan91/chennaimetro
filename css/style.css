@@ -1,8 +1,11 @@
+body{
+	background: #EDF8FA;
+}
 #header{
 	height: 50px;
 	position: fixed;
 	width: 100%;
-	background: #F8F8F8;
+	background: #FFFFFF;
 	top: 0;
 	border-bottom: 1px solid #CCC;
 	z-index: 99;
@@ -13,4 +16,33 @@
 	background: url('../images/logo.png') no-repeat;
 	margin: 9px 10px;
 	float: left;
+}
+#legend-button{
+	width: 20px;
+	height: 24px;
+	background-image: url('../images/sprite.png');
+	background-position: -1px -1px;
+	float: right;
+	margin: 13px 10px 0 0;
+}
+#legend-triangle{
+	width: 20px;
+	height: 8px;
+	background-image: url('../images/sprite.png');
+	background-position: -19px -1px;
+	position: fixed;
+	right: 12px;
+	top: 50px;
+	z-index: 100;
+}
+#legend-wrapper{
+	width: 300px;
+	height: 300px;
+	border: 1px solid #DDD;
+	position: fixed;
+	top: 57px;
+	right: 5px;
+	background: #FFF;
+	z-index: 99;
+	box-shadow: 0px 1px 5px -2px #888888;
 }
