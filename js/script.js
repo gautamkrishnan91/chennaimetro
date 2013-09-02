@@ -1,3 +1,3 @@
 function showHideLegend(){
-	$("#legend-wrapper").fadeToggle('200','swing');
+	$("#legend-wrapper").fadeToggle('200','linear');
 }
