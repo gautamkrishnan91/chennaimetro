@@ -32,6 +32,7 @@
 	border-radius: 50%;
 	position: absolute;
 	z-index: 20;
+	cursor: pointer;
 }
 .station-suburb{
 	border: 5px solid #FFC90D;

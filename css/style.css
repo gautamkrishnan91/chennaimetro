@@ -122,4 +122,7 @@ body{
 	position: fixed;
 	background: #FFF;
 	z-index: 30;
+	top: 50px;
+	border-right: 1px solid #CCC;
+	display: none;
 }
