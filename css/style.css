@@ -17,7 +17,7 @@ body{
 	margin: 9px 10px;
 	float: left;
 }
-
+		
 /* Map legend begins */
 
 
@@ -28,6 +28,7 @@ body{
 	background-position: -1px -1px;
 	float: right;
 	margin: 13px 10px 0 0;
+	cursor: pointer;
 }
 #legend-wrapper{
 	display: none;
@@ -43,6 +44,8 @@ body{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 500;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
 }
 #legend-triangle{
 	width: 20px;
@@ -76,7 +79,8 @@ body{
 	color: #555;
 	padding: 10px;
 	width: 300px;
-	box-sizing: border-box;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
 }
 .legend-color{
 	width: 90px;

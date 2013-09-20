@@ -2,15 +2,10 @@ $( document ).ready(function() {
 	var setPanelHeight = window.innerHeight - 50;
     $('#left-panel').height(setPanelHeight);
 });
-function showHideLegend(){
-	$("#legend-wrapper").fadeToggle('10','linear');
-}
-
-$('.station').click({ 
-	alert("hi");
-});
-
-function toggleLeftPanel(){
-	$('#left-panel').toggle("slide",
+$('.station').click(function(){
+	$('#left-panel').show("slide",
 		         { direction: "left"  }, 500);
-}
+});
+$("#legend-button").click(function(){
+	$("#legend-wrapper").fadeToggle('10','linear');
+});
