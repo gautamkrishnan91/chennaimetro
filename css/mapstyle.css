@@ -22,8 +22,11 @@
 
 /* Global Styles */
 #map-wrapper{
-	width: 3500px;
-	height: 3000px;
+	width: 4700px;
+	height: 5000px;
+	position: relative;
+	top: 3000px;
+	left: 3000px;
 }
 .station{
 	width: 32px;

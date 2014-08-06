@@ -5,6 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		
 		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="js/jquery-ui-1.10.3.custom.js"></script>
+		<script src="js/load.js"></script>
 
 	</head>
 	<body>
@@ -25,389 +27,396 @@
 				</ul>
 			</div>
 		</div>
-		<div id="left-panel"></div>
-		<div id="map-wrapper">
-			<div class="metro1">
-				<div class="metro1-vert1"></div>
-				<div class="metro1-right-bend1"></div>
-				<div class="metro1-hoz1"></div>
-				<div class="metro1-right-bend2"></div>
-				<div class="metro1-vert2">
-					<div class="station station-interchange" id="stn-egmore1"></div>
-					<div class="station station-metro1" id="stn-lic">
-							<div class="stn-name name-lic">LIC</div>
-					</div>
-				</div>
-				<div class="metro1-right-bend3"></div>
-				<div class="metro1-left-diag1">
-					<div class="station station-metro1" id="stn-thousandlights">
-							<div class="stn-name name-thousandlights">Thousand Lights</div>
-					</div>
-					<div class="station station-metro1" id="stn-gemini">
-							<div class="stn-name name-thousandlights">Gemini</div>
-					</div>
-					<div class="station station-metro1" id="stn-teynampet">
-							<div class="stn-name name-teynampet">Teynampet</div>
-					</div>
-					<div class="station station-metro1" id="stn-nandanam">
-							<div class="stn-name name-nandanam">Nandanam</div>
-					</div>
-					<div class="station station-metro1" id="stn-saidapet1">
-							<div class="stn-name name-saidapet1">Saidapet</div>
-					</div>
-					<div class="station station-metro1" id="stn-littlemount">
-							<div class="stn-name name-littlemount">Little Mount</div>
-					</div>
-					<div class="station station-interchange" id="stn-guindy2">
-					</div>
-					<div class="station station-interchange" id="stn-alandur">
-							<div class="stn-name name-alandur">Alandur</div>
-					</div>
-					<div class="station station-metro1" id="stn-ota">
-							<div class="stn-name name-ota">Officers Training Academy</div>
-					</div>
-					<div class="station station-metro1" id="stn-iac">
-							<div class="stn-name name-iac">Indian Airlies Colony</div>
-					</div>
-					<div class="station station-interchange" id="stn-meenambakkam2"></div>
-				</div>
-				<div class="metro1-right-bend4"></div>
-				<div class="metro1-left-diag2">
-					<div class="station station-metro1" id="stn-airport">
-							<div class="stn-name name-airport">Chennai International Airport</div>
-					</div>
-				</div>
-			</div>
-			<div class="metro2">
-				<div class="metro2-hoz1">
-					<div class="station station-interchange" id="stn-fort2">
-					</div>
-					<div class="station station-metro2" id="stn-vepery">
-						<div class="stn-name name-vepery">Vepery</div>
-					</div>
-					<div class="station station-metro2" id="stn-shastrinagar">
-						<div class="stn-name name-shastrinagar">Shastri Nagar</div>
-					</div>
-					<div class="station station-metro2" id="stn-kmch">
-						<div class="stn-name name-kmch">KMCH</div>
-					</div>
-				</div>
-				<div class="metro2-right-bend1">
-				</div>
-				<div class="metro2-diag1">
-					<div class="station station-metro2" id="stn-shenoynagar">
-						<div class="stn-name name-shenoynagar">Shenoy Nagar</div>
-					</div>
-					<div class="station station-metro2" id="stn-aminjikarai">
-						<div class="stn-name name-aminjikarai">Aminjikarai</div>
-					</div>
-				</div>
-				<div class="metro2-right-bend2">
-				</div>
-				<div class="metro2-hoz2">
-					<div class="station station-metro2" id="stn-annanagareast">
-						<div class="stn-name name-annanagareast">Anna Nagar East</div>
-					</div>
-					<div class="station station-metro2" id="stn-annanagartower">
-						<div class="stn-name name-annanagartower">Anna Nagar Tower</div>
-					</div>
-				</div>
-				<div class="metro2-left-bend3">
-				</div>
-				<div class="metro2-vert1">
-					<div class="station station-metro2" id="stn-thirumangalam">
-						<div class="stn-name name-thirumangalam">Thirumangalam</div>
-					</div>
-					<div class="station station-metro2" id="stn-arumbakkam">
-						<div class="stn-name name-arumbakkam">Arumbakkam</div>
-					</div>
-					<div class="station station-metro2" id="stn-koyambedu">
-						<div class="stn-name name-koyambedu">Koyambedu</div>
-					</div>
-					<div class="station station-metro2" id="stn-cmbt">
-						<div class="stn-name name-cmbt">CMBT</div>
-					</div>
-					<div class="station station-metro2" id="stn-vadapalani">
-						<div class="stn-name name-vadapalani">Vadapalani</div>
-					</div>
-					<div class="station station-metro2" id="stn-ashoknagar">
-						<div class="stn-name name-ashoknagar">Ashok Nagar</div>
-					</div>
-					<div class="station station-metro2" id="stn-kknagar">
-						<div class="stn-name name-kknagar">KK Nagar</div>
-					</div>
-					<div class="station station-metro2" id="stn-sidco">
-						<div class="stn-name name-sidco">SIDCO Estate</div>
-					</div>
-				</div>
-				<div class="metro2-right-bend4">
-				</div>
-				<div class="metro2-diag2">
-				</div>
-				<div class="metro2-diag3">
-				</div>
-			</div>
-			<div class="suburb">
-				<div class="suburb-vert-top">
-					<div class="suburb-right-bend1"></div>
-					<div class="station station-suburb" id="stn-korukkupet">
-							<div class="stn-name name-korukkupet">Korukkupet</div>
-					</div>
-					<div class="station station-suburb" id="stn-tondiarpet">
-							<div class="stn-name name-tondiarpet">Tondiarpet</div>
-					</div>
-					<div class="station station-suburb" id="stn-tiruvottiyur">
-							<div class="stn-name name-tiruvottiyur">Tiruvottiyur</div>
-					</div>
-					<div class="station station-suburb" id="stn-wimco">
-							<div class="stn-name name-wimco">Wimco Nagar</div>
-					</div>
-					<div class="station station-suburb" id="stn-kathivakkam">
-							<div class="stn-name name-kathivakkam">Kathivakkam</div>
-					</div>
-					<div class="station station-suburb" id="stn-ennore">
-							<div class="stn-name name-ennore">Ennore</div>
-					</div>
-					<div class="suburb-endpoint" id="endpoint-ennore"></div>
-				</div>
-				<div class="suburb-hoz-container">
-					<div class="suburb-endpoint" id="endpoint-hindu"></div>
-					<div class="suburb-hoz">
-						<div class="station station-suburb" id="stn-hinducollege">
-							<div class="stn-name name-hinducollege">Hindu College</div>
+		<div class="zoom-container">
+			<div class="zoom-in"></div>
+			<div class="zoom-out"></div>
+		</div>
+		<div class="viewable">
+			<div class="container">
+				<div id="map-wrapper">
+					<div class="metro1">
+						<div class="metro1-vert1"></div>
+						<div class="metro1-right-bend1"></div>
+						<div class="metro1-hoz1"></div>
+						<div class="metro1-right-bend2"></div>
+						<div class="metro1-vert2">
+							<div class="station station-interchange" id="stn-egmore1"></div>
+							<div class="station station-metro1" id="stn-lic">
+									<div class="stn-name name-lic">LIC</div>
+							</div>
 						</div>
-						<div class="station station-suburb" id="stn-avadi">
-							<div class="stn-name name-avadi">Avadi</div>
+						<div class="metro1-right-bend3"></div>
+						<div class="metro1-left-diag1">
+							<div class="station station-metro1" id="stn-thousandlights">
+									<div class="stn-name name-thousandlights">Thousand Lights</div>
+							</div>
+							<div class="station station-metro1" id="stn-gemini">
+									<div class="stn-name name-thousandlights">Gemini</div>
+							</div>
+							<div class="station station-metro1" id="stn-teynampet">
+									<div class="stn-name name-teynampet">Teynampet</div>
+							</div>
+							<div class="station station-metro1" id="stn-nandanam">
+									<div class="stn-name name-nandanam">Nandanam</div>
+							</div>
+							<div class="station station-metro1" id="stn-saidapet1">
+									<div class="stn-name name-saidapet1">Saidapet</div>
+							</div>
+							<div class="station station-metro1" id="stn-littlemount">
+									<div class="stn-name name-littlemount">Little Mount</div>
+							</div>
+							<div class="station station-interchange" id="stn-guindy2">
+							</div>
+							<div class="station station-interchange" id="stn-alandur">
+									<div class="stn-name name-alandur">Alandur</div>
+							</div>
+							<div class="station station-metro1" id="stn-ota">
+									<div class="stn-name name-ota">Officers Training Academy</div>
+							</div>
+							<div class="station station-metro1" id="stn-iac">
+									<div class="stn-name name-iac">Indian Airlies Colony</div>
+							</div>
+							<div class="station station-interchange" id="stn-meenambakkam2"></div>
 						</div>
-						<div class="station station-suburb" id="stn-annanur">
-							<div class="stn-name name-annanur">Annanur</div>
-						</div>
-						<div class="station station-suburb" id="stn-thirumullaivoyal">
-							<div class="stn-name name-thirumullaivoyal">Thirumullaivoyal</div>
-						</div>
-						<div class="station station-suburb" id="stn-ambattur">
-							<div class="stn-name name-ambattur">Ambattur</div>
-						</div>
-						<div class="station station-suburb" id="stn-ambattur">
-							<div class="stn-name name-ambattur">Ambattur</div>
-						</div>
-						<div class="station station-suburb" id="stn-pattaravakkam">
-							<div class="stn-name name-pattaravakkam">Pattaravakkam</div>
-						</div>
-						<div class="station station-suburb" id="stn-korattur">
-							<div class="stn-name name-korattur">Korattur</div>
-						</div>
-						<div class="station station-suburb" id="stn-villivakkam">
-							<div class="stn-name name-villivakkam">Villivakkam</div>
-						</div>
-						<div class="station station-suburb" id="stn-locoworks">
-							<div class="stn-name name-locoworks">Perambur Loco Works</div>
-						</div>
-						<div class="station station-suburb" id="stn-carriageworks">
-							<div class="stn-name name-carriageworks">Perambur Carriage Works</div>
-						</div>
-						<div class="station station-suburb" id="stn-perambur">
-							<div class="stn-name name-perambur">Perambur</div>
-						</div>
-						<div class="station station-suburb" id="stn-vyasarpadi">
-							<div class="stn-name name-vyasarpadi">Vyasarpadi Jeeva</div>
-						</div>
-						<div class="suburb-right-bend2"></div>
-						<div class="station station-interchange" id="stn-washermanpet">
-							<div class="stn-name name-washermanpet">Washermanpet</div>
+						<div class="metro1-right-bend4"></div>
+						<div class="metro1-left-diag2">
+							<div class="station station-metro1" id="stn-airport">
+									<div class="stn-name name-airport">Chennai International Airport</div>
+							</div>
 						</div>
 					</div>
-					<div class="suburb-right-bend3"></div>
-					<div class="suburb-vert3">
-						<div class="station station-suburb" id="stn-royapuram">
-							<div class="stn-name name-royapuram">Royapuram</div>
+					<div class="metro2">
+						<div class="metro2-hoz1">
+							<div class="station station-interchange" id="stn-fort2">
+							</div>
+							<div class="station station-metro2" id="stn-vepery">
+								<div class="stn-name name-vepery">Vepery</div>
+							</div>
+							<div class="station station-metro2" id="stn-shastrinagar">
+								<div class="stn-name name-shastrinagar">Shastri Nagar</div>
+							</div>
+							<div class="station station-metro2" id="stn-kmch">
+								<div class="stn-name name-kmch">KMCH</div>
+							</div>
 						</div>
-						<div class="station station-interchange" id="stn-beach">
-							<div class="stn-name name-beach name-interchange">Chennai Beach</div>
+						<div class="metro2-right-bend1">
+						</div>
+						<div class="metro2-diag1">
+							<div class="station station-metro2" id="stn-shenoynagar">
+								<div class="stn-name name-shenoynagar">Shenoy Nagar</div>
+							</div>
+							<div class="station station-metro2" id="stn-aminjikarai">
+								<div class="stn-name name-aminjikarai">Aminjikarai</div>
+							</div>
+						</div>
+						<div class="metro2-right-bend2">
+						</div>
+						<div class="metro2-hoz2">
+							<div class="station station-metro2" id="stn-annanagareast">
+								<div class="stn-name name-annanagareast">Anna Nagar East</div>
+							</div>
+							<div class="station station-metro2" id="stn-annanagartower">
+								<div class="stn-name name-annanagartower">Anna Nagar Tower</div>
+							</div>
+						</div>
+						<div class="metro2-left-bend3">
+						</div>
+						<div class="metro2-vert1">
+							<div class="station station-metro2" id="stn-thirumangalam">
+								<div class="stn-name name-thirumangalam">Thirumangalam</div>
+							</div>
+							<div class="station station-metro2" id="stn-arumbakkam">
+								<div class="stn-name name-arumbakkam">Arumbakkam</div>
+							</div>
+							<div class="station station-metro2" id="stn-koyambedu">
+								<div class="stn-name name-koyambedu">Koyambedu</div>
+							</div>
+							<div class="station station-metro2" id="stn-cmbt">
+								<div class="stn-name name-cmbt">CMBT</div>
+							</div>
+							<div class="station station-metro2" id="stn-vadapalani">
+								<div class="stn-name name-vadapalani">Vadapalani</div>
+							</div>
+							<div class="station station-metro2" id="stn-ashoknagar">
+								<div class="stn-name name-ashoknagar">Ashok Nagar</div>
+							</div>
+							<div class="station station-metro2" id="stn-kknagar">
+								<div class="stn-name name-kknagar">KK Nagar</div>
+							</div>
+							<div class="station station-metro2" id="stn-sidco">
+								<div class="stn-name name-sidco">SIDCO Estate</div>
+							</div>
+						</div>
+						<div class="metro2-right-bend4">
+						</div>
+						<div class="metro2-diag2">
+						</div>
+						<div class="metro2-diag3">
 						</div>
 					</div>
-					<div class="suburb-right-bend4"></div>
-					<div class="suburb-left-bend1"></div>
-					<div class="suburb-vert-small">
-						<div class="station station-suburb" id="stn-padi">
-							<div class="stn-name name-padi">Padi</div>
+					<div class="suburb">
+						<div class="suburb-vert-top">
+							<div class="suburb-right-bend1"></div>
+							<div class="station station-suburb" id="stn-korukkupet">
+									<div class="stn-name name-korukkupet">Korukkupet</div>
+							</div>
+							<div class="station station-suburb" id="stn-tondiarpet">
+									<div class="stn-name name-tondiarpet">Tondiarpet</div>
+							</div>
+							<div class="station station-suburb" id="stn-tiruvottiyur">
+									<div class="stn-name name-tiruvottiyur">Tiruvottiyur</div>
+							</div>
+							<div class="station station-suburb" id="stn-wimco">
+									<div class="stn-name name-wimco">Wimco Nagar</div>
+							</div>
+							<div class="station station-suburb" id="stn-kathivakkam">
+									<div class="stn-name name-kathivakkam">Kathivakkam</div>
+							</div>
+							<div class="station station-suburb" id="stn-ennore">
+									<div class="stn-name name-ennore">Ennore</div>
+							</div>
+							<div class="suburb-endpoint" id="endpoint-ennore"></div>
 						</div>
-						<div class="station station-suburb" id="stn-annanagarwest">
-							<div class="stn-name name-annanagarwest">Anna Nagar West</div>
+						<div class="suburb-hoz-container">
+							<div class="suburb-endpoint" id="endpoint-hindu"></div>
+							<div class="suburb-hoz">
+								<div class="station station-suburb" id="stn-hinducollege">
+									<div class="stn-name name-hinducollege">Hindu College</div>
+								</div>
+								<div class="station station-suburb" id="stn-avadi">
+									<div class="stn-name name-avadi">Avadi</div>
+								</div>
+								<div class="station station-suburb" id="stn-annanur">
+									<div class="stn-name name-annanur">Annanur</div>
+								</div>
+								<div class="station station-suburb" id="stn-thirumullaivoyal">
+									<div class="stn-name name-thirumullaivoyal">Thirumullaivoyal</div>
+								</div>
+								<div class="station station-suburb" id="stn-ambattur">
+									<div class="stn-name name-ambattur">Ambattur</div>
+								</div>
+								<div class="station station-suburb" id="stn-ambattur">
+									<div class="stn-name name-ambattur">Ambattur</div>
+								</div>
+								<div class="station station-suburb" id="stn-pattaravakkam">
+									<div class="stn-name name-pattaravakkam">Pattaravakkam</div>
+								</div>
+								<div class="station station-suburb" id="stn-korattur">
+									<div class="stn-name name-korattur">Korattur</div>
+								</div>
+								<div class="station station-suburb" id="stn-villivakkam">
+									<div class="stn-name name-villivakkam">Villivakkam</div>
+								</div>
+								<div class="station station-suburb" id="stn-locoworks">
+									<div class="stn-name name-locoworks">Perambur Loco Works</div>
+								</div>
+								<div class="station station-suburb" id="stn-carriageworks">
+									<div class="stn-name name-carriageworks">Perambur Carriage Works</div>
+								</div>
+								<div class="station station-suburb" id="stn-perambur">
+									<div class="stn-name name-perambur">Perambur</div>
+								</div>
+								<div class="station station-suburb" id="stn-vyasarpadi">
+									<div class="stn-name name-vyasarpadi">Vyasarpadi Jeeva</div>
+								</div>
+								<div class="suburb-right-bend2"></div>
+								<div class="station station-interchange" id="stn-washermanpet">
+									<div class="stn-name name-washermanpet">Washermanpet</div>
+								</div>
+							</div>
+							<div class="suburb-right-bend3"></div>
+							<div class="suburb-vert3">
+								<div class="station station-suburb" id="stn-royapuram">
+									<div class="stn-name name-royapuram">Royapuram</div>
+								</div>
+								<div class="station station-interchange" id="stn-beach">
+									<div class="stn-name name-beach name-interchange">Chennai Beach</div>
+								</div>
+							</div>
+							<div class="suburb-right-bend4"></div>
+							<div class="suburb-left-bend1"></div>
+							<div class="suburb-vert-small">
+								<div class="station station-suburb" id="stn-padi">
+									<div class="stn-name name-padi">Padi</div>
+								</div>
+								<div class="station station-suburb" id="stn-annanagarwest">
+									<div class="stn-name name-annanagarwest">Anna Nagar West</div>
+								</div>
+							</div>
+						</div>
+						<div class="suburb-vert2">
+							<div class="station station-interchange" id="stn-basinbridge">
+									<div class="stn-name name-basinbridge">Basin Bridge</div>
+							</div>
+							<div class="station station-interchange" id="stn-central1">
+									<div class="stn-name name-central1">Chennai Central</div>
+							</div>
+						</div>
+						<div class="suburb-right-hoz2">
+							<div class="station station-interchange" id="stn-fort1">
+									<div class="stn-name name-fort">Chennai Fort</div>
+							</div>
+							<div class="station station-interchange" id="stn-park1">
+									<div class="stn-name name-park1">Chennai Park</div>
+							</div>
+							<div class="station station-interchange" id="stn-egmore">
+									<div class="stn-name name-egmore">Chennai Egmore</div>
+							</div>
+						</div>
+						<div class="suburb-right-bend5"></div>
+						<div class="suburb-left-diag1">
+							<div class="station station-suburb" id="stn-chetpet">
+									<div class="stn-name name-chetpet">Chetpet</div>
+							</div>
+							<div class="station station-suburb" id="stn-nungambakkam">
+									<div class="stn-name name-nungambakkam">Nungambakkam</div>
+							</div>
+							<div class="station station-suburb" id="stn-kodambakkam">
+									<div class="stn-name name-kodambakkam">Kodambakkam</div>
+							</div>
+						</div>
+						<div class="suburb-right-bend6"></div>
+						<div class="suburb-vert4">
+							<div class="station station-suburb" id="stn-mambalam">
+									<div class="stn-name name-mambalam">Mambalam</div>
+							</div>
+							<div class="station station-suburb" id="stn-saidapet">
+									<div class="stn-name name-saidapet">Saidapet</div>
+							</div>
+							<div class="station station-interchange" id="stn-guindy1">
+									<div class="stn-name name-guindy">Guindy</div>
+							</div>
+						</div>
+						<div class="suburb-right-bend7"></div>
+						<div class="suburb-left-diag2">
+							<div class="station station-interchange" id="stn-mount">
+									<div class="stn-name name-mount">St. Thomas Mount</div>
+							</div>
+							<div class="station station-suburb" id="stn-pazhavanthangal">
+									<div class="stn-name name-pazhavanthangal">Pazhavanthangal</div>
+							</div>
+							<div class="station station-interchange" id="stn-meenambakkam">
+									<div class="stn-name name-meenambakkam">Meenambakkam</div>
+							</div>
+							<div class="station station-suburb" id="stn-tirusulam">
+									<div class="stn-name name-tirusulam">Tirusulam</div>
+							</div>
+							<div class="station station-suburb" id="stn-pallavaram">
+									<div class="stn-name name-pallavaram">Pallavaram</div>
+							</div>
+							<div class="station station-suburb" id="stn-chrompet">
+									<div class="stn-name name-chrompet">Chrompet</div>
+							</div>
+							<div class="station station-suburb" id="stn-sanatorium">
+									<div class="stn-name name-sanatorium">Sanatorium</div>
+							</div>
+							<div class="station station-suburb" id="stn-tambaram">
+									<div class="stn-name name-tambaram">Tambaram</div>
+							</div>
+							<div class="station station-suburb" id="stn-perungalathur">
+									<div class="stn-name name-perungalathur">Perungalathur</div>
+							</div>
+							<div class="station station-suburb" id="stn-vandalur">
+									<div class="stn-name name-vandalur">Vandalur</div>
+							</div>
+							<div class="station station-suburb" id="stn-urapakkam">
+									<div class="stn-name name-urapakkam">Urapakkam</div>
+							</div>
+							<div class="station station-suburb" id="stn-guduvancheri">
+									<div class="stn-name name-guduvancheri">Guduvancheri</div>
+							</div>
+							<div class="station station-suburb" id="stn-potheri">
+									<div class="stn-name name-potheri">Potheri</div>
+							</div>
+							<div class="station station-suburb" id="stn-kattangulathur">
+									<div class="stn-name name-kattangulathur">Kattangulathur</div>
+							</div>
+							<div class="station station-suburb" id="stn-maraimalainagar">
+									<div class="stn-name name-maraimalainagar">Maraimalai Nagar</div>
+							</div>
+							<div class="station station-suburb" id="stn-singaperumal">
+									<div class="stn-name name-singaperumal">Singaperumal Koil</div>
+							</div>
+							<div class="station station-suburb" id="stn-paranur">
+									<div class="stn-name name-paranur">Paranur</div>
+							</div>
+							<div class="station station-suburb" id="stn-chengalpattu">
+									<div class="stn-name name-chengalpattu">Chengalpattu</div>
+							</div>
+							<div class="suburb-endpoint" id="endpoint-chengalpattu"></div>
+						</div>
+						</div>
+						<div class="mrts">
+							<div class="mrts-vert1"></div>
+							<div class="mrts-right-bend1"></div>
+							<div class="mrts-hoz1"></div>
+							<div class="mrts-left-bend1"></div>
+							<div class="mrts-vert2">
+								<div class="station station-interchange" id="stn-park2">
+										<div class="stn-name name-park2">Park Town</div>
+								</div>
+								<div class="station station-mrts" id="stn-chintadripet">
+										<div class="stn-name name-chintadripet">Chintadripet</div>
+								</div>
+								<div class="station station-mrts" id="stn-chepauk">
+										<div class="stn-name name-chepauk">Chepauk</div>
+								</div>
+								<div class="station station-mrts" id="stn-triplicane">
+										<div class="stn-name name-triplicane">Triplicane</div>
+								</div>
+								<div class="station station-mrts" id="stn-lighthouse">
+										<div class="stn-name name-lighthouse">Lighthouse</div>
+								</div>
+							</div>
+							<div class="mrts-right-bend2">
+								<div class="station station-mrts" id="stn-mundaikanni">
+										<div class="stn-name name-mundaikanni">Mundaikanniamman Koil</div>
+								</div>
+							</div>
+							<div class="mrts-left-diag1">
+								<div class="station station-mrts" id="stn-mylapore">
+										<div class="stn-name name-mylapore">Mylapore</div>
+								</div>
+								<div class="station station-mrts" id="stn-mandaveli">
+										<div class="stn-name name-mandaveli">Mandaveli</div>
+								</div>
+								<div class="station station-mrts" id="stn-greenways">
+										<div class="stn-name name-greenways">Greenways Road</div>
+								</div>
+								<div class="station station-mrts" id="stn-kotturpuram">
+										<div class="stn-name name-kotturpuram">Kotturpuram</div>
+								</div>
+								<div class="station station-mrts" id="stn-kasturiba">
+										<div class="stn-name name-kasturiba">Kasturiba Nagar</div>
+								</div>
+								<div class="station station-mrts" id="stn-indira">
+										<div class="stn-name name-indira">Indira Nagar</div>
+								</div>
+								<div class="station station-mrts" id="stn-thiruvanmiyur">
+										<div class="stn-name name-thiruvanmiyur">Thiruvanmiyur</div>
+								</div>
+								<div class="station station-mrts" id="stn-taramani">
+										<div class="stn-name name-taramani">Taramani</div>
+								</div>
+								<div class="station station-mrts" id="stn-perungudi">
+										<div class="stn-name name-perungudi">Perungudi</div>
+								</div>
+								<div class="station station-mrts" id="stn-velachery">
+										<div class="stn-name name-velachery">Velachery</div>
+								</div>
+								<div class="station station-mrts" id="stn-puzhuthivakkam">
+										<div class="stn-name name-puzhuthivakkam">Puzhuthivakkam</div>
+								</div>
+							</div>
+							<div class="mrts-left-bend3"></div>
+							<div class="mrts-left-diag2">
+								<div class="station station-mrts" id="stn-adambakkam">
+										<div class="stn-name name-adambakkam">Adambakkam</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="suburb-vert2">
-					<div class="station station-interchange" id="stn-basinbridge">
-							<div class="stn-name name-basinbridge">Basin Bridge</div>
-					</div>
-					<div class="station station-interchange" id="stn-central1">
-							<div class="stn-name name-central1">Chennai Central</div>
-					</div>
-				</div>
-				<div class="suburb-right-hoz2">
-					<div class="station station-interchange" id="stn-fort1">
-							<div class="stn-name name-fort">Chennai Fort</div>
-					</div>
-					<div class="station station-interchange" id="stn-park1">
-							<div class="stn-name name-park1">Chennai Park</div>
-					</div>
-					<div class="station station-interchange" id="stn-egmore">
-							<div class="stn-name name-egmore">Chennai Egmore</div>
-					</div>
-				</div>
-				<div class="suburb-right-bend5"></div>
-				<div class="suburb-left-diag1">
-					<div class="station station-suburb" id="stn-chetpet">
-							<div class="stn-name name-chetpet">Chetpet</div>
-					</div>
-					<div class="station station-suburb" id="stn-nungambakkam">
-							<div class="stn-name name-nungambakkam">Nungambakkam</div>
-					</div>
-					<div class="station station-suburb" id="stn-kodambakkam">
-							<div class="stn-name name-kodambakkam">Kodambakkam</div>
-					</div>
-				</div>
-				<div class="suburb-right-bend6"></div>
-				<div class="suburb-vert4">
-					<div class="station station-suburb" id="stn-mambalam">
-							<div class="stn-name name-mambalam">Mambalam</div>
-					</div>
-					<div class="station station-suburb" id="stn-saidapet">
-							<div class="stn-name name-saidapet">Saidapet</div>
-					</div>
-					<div class="station station-interchange" id="stn-guindy1">
-							<div class="stn-name name-guindy">Guindy</div>
-					</div>
-				</div>
-				<div class="suburb-right-bend7"></div>
-				<div class="suburb-left-diag2">
-					<div class="station station-interchange" id="stn-mount">
-							<div class="stn-name name-mount">St. Thomas Mount</div>
-					</div>
-					<div class="station station-suburb" id="stn-pazhavanthangal">
-							<div class="stn-name name-pazhavanthangal">Pazhavanthangal</div>
-					</div>
-					<div class="station station-interchange" id="stn-meenambakkam">
-							<div class="stn-name name-meenambakkam">Meenambakkam</div>
-					</div>
-					<div class="station station-suburb" id="stn-tirusulam">
-							<div class="stn-name name-tirusulam">Tirusulam</div>
-					</div>
-					<div class="station station-suburb" id="stn-pallavaram">
-							<div class="stn-name name-pallavaram">Pallavaram</div>
-					</div>
-					<div class="station station-suburb" id="stn-chrompet">
-							<div class="stn-name name-chrompet">Chrompet</div>
-					</div>
-					<div class="station station-suburb" id="stn-sanatorium">
-							<div class="stn-name name-sanatorium">Sanatorium</div>
-					</div>
-					<div class="station station-suburb" id="stn-tambaram">
-							<div class="stn-name name-tambaram">Tambaram</div>
-					</div>
-					<div class="station station-suburb" id="stn-perungalathur">
-							<div class="stn-name name-perungalathur">Perungalathur</div>
-					</div>
-					<div class="station station-suburb" id="stn-vandalur">
-							<div class="stn-name name-vandalur">Vandalur</div>
-					</div>
-					<div class="station station-suburb" id="stn-urapakkam">
-							<div class="stn-name name-urapakkam">Urapakkam</div>
-					</div>
-					<div class="station station-suburb" id="stn-guduvancheri">
-							<div class="stn-name name-guduvancheri">Guduvancheri</div>
-					</div>
-					<div class="station station-suburb" id="stn-potheri">
-							<div class="stn-name name-potheri">Potheri</div>
-					</div>
-					<div class="station station-suburb" id="stn-kattangulathur">
-							<div class="stn-name name-kattangulathur">Kattangulathur</div>
-					</div>
-					<div class="station station-suburb" id="stn-maraimalainagar">
-							<div class="stn-name name-maraimalainagar">Maraimalai Nagar</div>
-					</div>
-					<div class="station station-suburb" id="stn-singaperumal">
-							<div class="stn-name name-singaperumal">Singaperumal Koil</div>
-					</div>
-					<div class="station station-suburb" id="stn-paranur">
-							<div class="stn-name name-paranur">Paranur</div>
-					</div>
-					<div class="station station-suburb" id="stn-chengalpattu">
-							<div class="stn-name name-chengalpattu">Chengalpattu</div>
-					</div>
-					<div class="suburb-endpoint" id="endpoint-chengalpattu"></div>
-				</div>
-				</div>
-				<div class="mrts">
-				<div class="mrts-vert1"></div>
-				<div class="mrts-right-bend1"></div>
-				<div class="mrts-hoz1"></div>
-				<div class="mrts-left-bend1"></div>
-				<div class="mrts-vert2">
-					<div class="station station-interchange" id="stn-park2">
-							<div class="stn-name name-park2">Park Town</div>
-					</div>
-					<div class="station station-mrts" id="stn-chintadripet">
-							<div class="stn-name name-chintadripet">Chintadripet</div>
-					</div>
-					<div class="station station-mrts" id="stn-chepauk">
-							<div class="stn-name name-chepauk">Chepauk</div>
-					</div>
-					<div class="station station-mrts" id="stn-triplicane">
-							<div class="stn-name name-triplicane">Triplicane</div>
-					</div>
-					<div class="station station-mrts" id="stn-lighthouse">
-							<div class="stn-name name-lighthouse">Lighthouse</div>
-					</div>
-				</div>
-				<div class="mrts-right-bend2">
-					<div class="station station-mrts" id="stn-mundaikanni">
-							<div class="stn-name name-mundaikanni">Mundaikanniamman Koil</div>
-					</div>
-				</div>
-				<div class="mrts-left-diag1">
-					<div class="station station-mrts" id="stn-mylapore">
-							<div class="stn-name name-mylapore">Mylapore</div>
-					</div>
-					<div class="station station-mrts" id="stn-mandaveli">
-							<div class="stn-name name-mandaveli">Mandaveli</div>
-					</div>
-					<div class="station station-mrts" id="stn-greenways">
-							<div class="stn-name name-greenways">Greenways Road</div>
-					</div>
-					<div class="station station-mrts" id="stn-kotturpuram">
-							<div class="stn-name name-kotturpuram">Kotturpuram</div>
-					</div>
-					<div class="station station-mrts" id="stn-kasturiba">
-							<div class="stn-name name-kasturiba">Kasturiba Nagar</div>
-					</div>
-					<div class="station station-mrts" id="stn-indira">
-							<div class="stn-name name-indira">Indira Nagar</div>
-					</div>
-					<div class="station station-mrts" id="stn-thiruvanmiyur">
-							<div class="stn-name name-thiruvanmiyur">Thiruvanmiyur</div>
-					</div>
-					<div class="station station-mrts" id="stn-taramani">
-							<div class="stn-name name-taramani">Taramani</div>
-					</div>
-					<div class="station station-mrts" id="stn-perungudi">
-							<div class="stn-name name-perungudi">Perungudi</div>
-					</div>
-					<div class="station station-mrts" id="stn-velachery">
-							<div class="stn-name name-velachery">Velachery</div>
-					</div>
-					<div class="station station-mrts" id="stn-puzhuthivakkam">
-							<div class="stn-name name-puzhuthivakkam">Puzhuthivakkam</div>
-					</div>
-				</div>
-				<div class="mrts-left-bend3"></div>
-				<div class="mrts-left-diag2">
-					<div class="station station-mrts" id="stn-adambakkam">
-							<div class="stn-name name-adambakkam">Adambakkam</div>
-					</div>
-				</div>
-			</div>
 			</div>
 			<script type="text/javascript" src="js/script.js"></script>
 	</body>

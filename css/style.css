@@ -1,5 +1,6 @@
 body{
 	background: #EDF8FA;
+
 }
 #header{
 	height: 50px;
@@ -18,6 +19,21 @@ body{
 	float: left;
 }
 		
+
+.viewable{
+	overflow: hidden !important;
+	position: relative;
+	margin-top: 50px;
+	cursor: move;
+}
+.container{
+	width: 9400px;
+	height: 10000px;
+	position: absolute;
+	top: -4500px;
+	left: -3200px;
+}
+
 /* Map legend begins */
 
 
@@ -117,6 +133,55 @@ body{
 
 /* Map legend ends */
 
+
+/* Zoom */
+
+.zoom-container{
+	width: 40px;
+	height: 84px;
+	border: 1px solid #DDD;
+	background: #FFF;
+	position: fixed;
+	left: 10px;
+	bottom: 100px;
+	z-index: 20;
+}
+.zoom-in{
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #EEE;
+	height: 42px;
+}
+.zoom-in:before{
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 4px;
+	background: #999;
+	margin: 20px 0 0 12px;
+}
+.zoom-in:after{
+	content: "";
+	position: absolute;
+	width: 4px;
+	height: 16px;
+	background: #999;
+	margin: 14px 0 0 18px;
+}
+.zoom-out{
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #EEE;
+	height: 40px;
+}
+.zoom-out:before{
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 4px;
+	background: #999;
+	margin: 18px 0 0 12px;
+}
 
 /* Left Panel Begins */
 
